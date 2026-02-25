@@ -220,13 +220,75 @@ body.hovering .cursor-dot-outline {
 .exhibit-hall.active .doodle-circle path { stroke-dashoffset: 0; }
 
 /* DECOR */
-.paper-planes i { position: absolute; color: #fff; font-size: 2rem; opacity: 0.8; filter: drop-shadow(5px 5px 0 rgba(0,0,0,0.1)); }
-.p1 { top: 20%; left: -100px; } 
-.p2 { bottom: 30%; left: -200px; font-size: 1.5rem; }
+.paper-planes i { position: absolute; color: #fff; font-size: 3rem; opacity: 1; filter: drop-shadow(5px 5px 0 rgba(0,0,0,0.1)); }
+.p1 { top: 20%; left: -35px; } 
+.p2 { bottom: 30%; left: -100px; font-size: 1.5rem; }
 .torn-divider-left { position: absolute; left: -1px; top: 0; bottom: 0; width: 100px; z-index: 10; background: inherit; -webkit-mask-image: var(--torn-mask); mask-image: var(--torn-mask); -webkit-mask-size: cover; mask-size: cover; -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat; filter: drop-shadow(5px 0 10px rgba(0,0,0,0.1)); }
 .hall-bg-decor{position:absolute; inset:0; pointer-events:none; overflow:hidden}
 .floating-text{ position:absolute; font-family:var(--font-hand); font-size:8rem; opacity:.05; white-space:nowrap; }
 .t1{bottom:8%; left:5%} .t2{bottom:12%; left:8%} .t3{bottom:10%; right:5%}
+.scrapbook-pin {
+    position: absolute; top: 8px; left: 50%; transform: translateX(-50%);
+    width: 16px; height: 16px; border-radius: 50%; z-index: 10;
+    background: radial-gradient(circle at 30% 30%, #ff5252, #b71c1c);
+    box-shadow: 2px 4px 5px rgba(0,0,0,0.3), inset -2px -2px 4px rgba(0,0,0,0.2);
+}
+.scrapbook-pin::after {
+    content: ''; position: absolute; top: 10px; left: 7px; width: 2px; height: 12px;
+    background: #777; z-index: -1; transform: rotate(15deg);
+    box-shadow: 1px 2px 2px rgba(0,0,0,0.2);
+}
+
+/* KẸP GIẤY KIM LOẠI (Paper Clip) */
+.scrapbook-clip {
+    position: absolute; top: -15px; left: 15%; width: 16px; height: 40px;
+    border: 3px solid #90a4ae; border-radius: 20px; z-index: 10;
+    transform: rotate(12deg); box-shadow: 2px 2px 3px rgba(0,0,0,0.15);
+}
+.scrapbook-clip::before {
+    content: ''; position: absolute; top: 4px; right: -3px; width: 8px; height: 22px;
+    border: 3px solid #90a4ae; border-radius: 10px; border-left: none;
+}
+
+/* ========================================================
+   GIA VỊ SCRAPBOOK: KẸP GIẤY, GHIM BẤM & DOODLES
+   ======================================================== */
+.doodle-decor {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    color: var(--c-brown);
+    opacity: 0.25; 
+    z-index: -1; 
+    pointer-events: none;
+}
+.doodle-decor svg {
+    width: 100%; height: 100%; stroke: currentColor; fill: none;
+    stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round;
+}
+
+/* GHIM ĐỎ (Push Pin) */
+.scrapbook-pin {
+    position: absolute; top: 8px; left: 50%; transform: translateX(-50%);
+    width: 16px; height: 16px; border-radius: 50%; z-index: 10;
+    background: radial-gradient(circle at 30% 30%, #ff5252, #b71c1c);
+    box-shadow: 2px 4px 5px rgba(0,0,0,0.3), inset -2px -2px 4px rgba(0,0,0,0.2);
+}
+.scrapbook-pin::after {
+    content: ''; position: absolute; top: 10px; left: 7px; width: 2px; height: 12px;
+    background: #777; z-index: -1; transform: rotate(15deg); box-shadow: 1px 2px 2px rgba(0,0,0,0.2);
+}
+
+/* KẸP GIẤY KIM LOẠI (Paper Clip) */
+.scrapbook-clip {
+    position: absolute; top: -15px; left: 15%; width: 16px; height: 40px;
+    border: 3px solid #90a4ae; border-radius: 20px; z-index: 10;
+    transform: rotate(12deg); box-shadow: 2px 2px 3px rgba(0,0,0,0.15);
+}
+.scrapbook-clip::before {
+    content: ''; position: absolute; top: 4px; right: -3px; width: 8px; height: 22px;
+    border: 3px solid #90a4ae; border-radius: 10px; border-left: none;
+}
 
 /* ========================================================
    THIẾT KẾ ẢNH KỶ YẾU POLAROID NỐI TIẾP BÊN PHẢI CHỮ
@@ -390,9 +452,11 @@ body.hovering .cursor-dot-outline {
 /* SVG Trang trí */
 .doodle-decor {
     position: absolute;
+    width: 120px;
+    height: 120px;
     color: var(--c-brown);
-    opacity: 0.15; /* Rất mờ, thanh lịch, không bị gớm */
-    z-index: 1; /* Nằm dưới thẻ Polaroid */
+    opacity: 0.2; /* Tăng độ đậm lên tí cho dễ thấy */
+    z-index: -1; /* Núp lùm đằng sau tấm ảnh */
     pointer-events: none;
 }
 .doodle-decor svg {
@@ -400,7 +464,29 @@ body.hovering .cursor-dot-outline {
     height: 100%;
     stroke: currentColor;
     fill: none;
-    stroke-width: 1.5; /* Nét vẽ mảnh khảnh tinh tế */
+    stroke-width: 1.5;
     stroke-linecap: round;
     stroke-linejoin: round;
 }
+
+.vintage-sticker {
+    position: absolute;
+    bottom: -15px;
+    right: -20px;
+    background: #ffecb3;
+    color: #e65100;
+    font-family: var(--font-hand);
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 5px 15px;
+    transform: rotate(-15deg);
+    box-shadow: 2px 4px 10px rgba(0,0,0,0.15);
+    border: 2px dashed #ffb300;
+    border-radius: 4px;
+    z-index: 20;
+    pointer-events: none;
+    opacity: 0.9;
+}
+/* Random màu sticker cho sinh động */
+.pin-label:nth-child(2n) .vintage-sticker { background: #ffcdd2; color: #b71c1c; border-color: #ef9a9a; transform: rotate(10deg); right: auto; left: -20px; }
+.pin-label:nth-child(3n) .vintage-sticker { background: #b2dfdb; color: #004d40; border-color: #80cbc4; }

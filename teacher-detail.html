@@ -80,7 +80,7 @@
       <a href="index.html"><img src="assets/logo.png" alt="12A2 Logo"></a>
     </div>
     <div class="nav-actions">
-        </div>
+    </div>
   </nav>
 
   <main class="detail-main">
@@ -126,10 +126,40 @@
             <div class="sticky-note">
                 <div class="tape-strip top-center"></div>
                 <div class="aside-title"><i class="fa-solid fa-circle-info"></i> Profile</div>
-                <div class="aside-row"><span class="k">Tên:</span> <span class="v" id="aName">—</span></div>
+                <div class="aside-row"><span class="k">Tên giáo viên:</span> <span class="v" id="aName">—</span></div>
                 <div class="aside-row"><span class="k">Môn:</span> <span class="v" id="aSubject">—</span></div>
                 <div class="divider-dashed"></div>
                 <ul class="bullets" id="aBullets"></ul>
+
+                <div class="craft-tag-player" id="teacherAudioContainer" style="display: none;">
+                    <div class="tape-strip-corner"></div>
+                    
+                    <div class="tag-content-wrapper">
+                        <div class="tag-left">
+                            <div class="vinyl-record-s" id="audioVinyl">
+                                <div class="record-label-s"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="tag-center">
+                            <div class="tag-filename font-hand-2" id="audioFileName">REC_A2.WAV</div>
+                            <div class="wave-container-s" id="audioWave">
+                                <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+                                <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+                            </div>
+                        </div>
+
+                        <div class="tag-right">
+                            <button class="craft-play-btn hover-target" id="audioPlayBtn">
+                                <i class="fa-solid fa-play"></i>
+                            </button>
+                            <div class="tag-time" id="audioTime">00:00</div>
+                        </div>
+                    </div>
+                    
+                    <audio id="teacherAudio" preload="metadata"></audio>
+                </div>
+                
                 <button class="sticky-btn hover-target" id="openThanksBtn">
                     Gửi lời nhắn <i class="fa-solid fa-paper-plane"></i>
                 </button>
@@ -139,19 +169,29 @@
           <article class="d-article notebook-paper">
             <div class="paper-holes"></div> 
             <div class="article-head">
-                <div class="article-chip">Ký ức 2023 - 2026</div>
+                <div class="article-chip">Dòng chảy ký ức 2023 - 2026</div>
                 <div class="article-meta" id="readMeta">Lưu bút 12A2</div>
             </div>
+
             <div class="story-content" id="storyBody"></div>
-            <figure class="story-figure reveal" id="fig1">
-                <div class="paper-clip"></div>
-                <img id="fig1Img" src="" alt="">
-                <figcaption id="fig1Cap">...</figcaption>
-            </figure>
+            <figure class="story-figure reveal" id="fig1" style="display: none;"></figure>
+
             <div class="story-content" id="storyBody2"></div>
+            <figure class="story-figure reveal" id="fig2" style="display: none;"></figure>
+
+            <div class="story-content" id="storyBody3"></div>
+            <figure class="story-figure reveal" id="fig3" style="display: none;"></figure>
+
+            <div class="story-content" id="storyBody4"></div>
+            <figure class="story-figure reveal" id="fig4" style="display: none;"></figure>
+
+            <div class="story-content" id="storyBody5"></div>
+            <figure class="story-figure reveal" id="fig5" style="display: none;"></figure>
+
             <blockquote class="big-quote reveal" id="bigQuote">
                 “...”<span class="who" id="bigQuoteWho">— 12A2</span>
             </blockquote>
+
             <section class="gallery">
                 <div class="gallery-head"><h2><i class="fa-regular fa-images"></i> Khoảnh khắc</h2></div>
                 <div class="polaroids" id="galleryGrid"></div>
@@ -215,19 +255,38 @@
   </main>
   
   <div class="thanks-modal" id="thanksModal" aria-hidden="true">
-    <div class="thanks-card paper-texture">
-      <div class="thanks-head">
-          <div class="thanks-title font-hand">Viết lưu bút</div>
-          <button class="thanks-close hover-target" id="thanksClose">✕</button>
+    <div class="thanks-overlay" id="thanksCloseOverlay"></div>
+
+    <div class="vintage-postcard">
+      <div class="tape-strip top-center"></div>
+      
+      <button class="thanks-close hover-target" id="thanksClose" title="Cất đi">
+          <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div class="postcard-header">
+        <h3 class="font-hand">Gửi chút tâm tình...</h3>
+        <div class="stamp-decor"><i class="fa-solid fa-stamp"></i></div>
       </div>
-      <div class="thanks-body">
-          <p class="guide-text">Tin nhắn của bạn sẽ được ghim công khai lên bảng tin cuối trang.</p>
-          <input class="thanks-input font-hand-2" id="thanksName" maxlength="30" placeholder="Tên bạn...">
-          <textarea class="thanks-input font-hand-2" id="thanksMsg" rows="4" maxlength="150" placeholder="Lời nhắn..."></textarea>
-          <button class="cta w-100 hover-target" id="thanksSend" style="background:var(--c-brown); color:#fff">Ghim lên bảng <i class="fa-solid fa-thumbtack"></i></button>
+
+      <div class="postcard-body">
+        <p class="guide-text font-hand-2">Hãy để lại vài dòng tâm tình cho thầy/cô nhé!</p>
+        
+        <div class="input-group">
+            <input class="vintage-input font-hand-2 hover-target" id="thanksName" maxlength="30" placeholder="Tên của bạn..." autocomplete="off">
+        </div>
+        
+        <div class="input-group">
+            <textarea class="vintage-textarea font-hand-2 hover-target" id="thanksMsg" rows="4" maxlength="200" placeholder="Tin nhắn mà bạn muốn gửi gắm..."></textarea>
+        </div>
+        
+        <button class="vintage-submit-btn hover-target" id="thanksSend">
+            Dán lên bảng <i class="fa-solid fa-thumbtack" style="margin-left: 5px;"></i>
+        </button>
       </div>
     </div>
   </div>
+
   <div class="photo-modal" id="photoModal" aria-hidden="true">
     <button class="photo-close hover-target" id="photoClose" type="button" aria-label="Đóng">✕</button>
 

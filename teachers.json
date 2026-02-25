@@ -1,0 +1,79 @@
+{
+  "thay-suyen": {
+    "name": "Thầy Suyền",
+    "fullName": "Tôn Thất Suyền",
+    "subject": "Tin Học",
+    "grade": [10,11,12],
+    "avatar": "assets/teachers/10_11_12_thay_suyen/avatar.jpg",
+    "role": "Giáo viên Tin Học",
+    "quote": "“Tụi em hiểu chưa, thầy nói lại lần nữa nè nghe kĩ nha!”",
+    "cover": "assets/teachers/10_11_12_thay_suyen/anh_hero.png",
+    "cutout": "assets/teachers/10_11_12_thay_suyen_cutout.png",
+    "audio": "assets/teachers/10_11_12_thay_suyen/voice.mp3",
+    "audioFileName": "REC_31912209.wav", 
+    "fig1": { "src": "assets/intro/intro-memories.mp4", "cap": "Một chiều mưa 12A2..." },
+    "bigQuote": "“Chúc thầy luôn mạnh khỏe, hạnh phúc và tiếp tục giữ mãi ngọn lửa đam mê với nghề.”",
+    "bullets": ["Thương học sinh", "Tâm lý hết nấc", "Đẹp trai s1tg!"],
+    "storyA": [
+      "Thầy Suyền là giáo viên Tin học đã đồng hành suốt 3 năm cấp ba cùng lớp chúng em. Trong khoảng thời gian ấy, thầy luôn giữ trọn sự nhiệt huyết, mang đến những giờ học vừa bổ ích vừa thoải mái. Thầy giảng bài cẩn thận, dễ hiểu và không ngại dành thêm thời gian để hướng dẫn lại khi chúng em còn bỡ ngỡ. Nhờ cách dạy gần gũi và tận tình của thầy, những kiến thức tưởng chừng khô khan trở nên sinh động và dễ tiếp cận hơn rất nhiều."
+    ],
+    "storyB": [
+      "Không chỉ truyền đạt kiến thức, thầy còn khuyến khích chúng em chủ động tìm tòi, sáng tạo và mạnh dạn thử sức với những điều mới. Thầy luôn động viên khi chúng em gặp khó khăn và âm thầm dõi theo sự tiến bộ của từng bạn trong lớp. Nhờ sự kiên nhẫn và trách nhiệm ấy, chúng em không chỉ tiến bộ trong môn Tin học mà còn trưởng thành hơn trong cách suy nghĩ và làm việc."
+    ],
+    "storyC": [
+      "Ba năm trôi qua với biết bao kỷ niệm, chúng em thật sự trân trọng sự đồng hành của thầy. Chúng em biết ơn vì đã có một người thầy tận tâm như vậy trong những năm tháng quan trọng của tuổi học trò."
+    ],
+    "gallery": [
+      { "src": "assets/teachers/10_11_12_thay_suyen/wipe_1.jpg", "cap": "Hội trại", "desc": "Kỷ niệm ngày cắm trại." },
+      { "src": "assets/teachers/10_11_12_thay_suyen/wipe_2.jpg", "cap": "Họp PH", "desc": "" },
+      { "src": "assets/teachers/10_11_12_thay_suyen/wipe_3.jpg", "cap": "Chụp lén", "desc": "" },
+      { "src": "assets/teachers/10_11_12_thay_suyen/wipe_4.jpg", "cap": "Tổng kết", "desc": "" },
+      { "src": "assets/teachers/10_11_12_thay_suyen/wipe_5.jpg", "cap": "Kỷ yếu", "desc": "" }
+    ]
+  },
+  "co-trang": {
+    "name": "Cô Trang",
+    "fullName": "Thân Thị Phương Trang",
+    "subject": "Toán Học",
+    "grade": 12,
+    "avatar": "assets/teachers/12_co_trang/avatar.jpg",
+    "role": "Chủ nhiệm & Giáo viên Toán",
+    "quote": "“Đi chậm cho chắc — nhưng đã làm là phải tới nơi.”",
+    "cover": "assets/teachers/12_co_trang/anh_hero.png",
+    "cutout": "assets/teachers/12_co_trang_cutout.png",
+    "audio": "assets/teachers/12_co_trang/voice.m4a",
+    "audioFileName": "REC_24052026.wav", 
+    "audioTrackName": "Lời chúc của cô Trang dành cho 12A2",
+    "fig1": { "src": "assets/teachers/12_co_trang/wipe_1.jpg", "cap": "Một chiều mưa 12A2..." },
+    "bigQuote": "“Cảm ơn cô vì đã giữ tụi em ‘ở lại’ với nhau.”",
+    "bullets": ["Hay nhắc: 'Làm lại cho tử tế'", "Tâm lý hết nấc", "Nghiêm nhưng thương"],
+    "storyA": [
+      "Cô Trang là giáo viên Toán lớp 12 của chúng em, cô là một cô giáo nhỏ nhắn với nụ cười vô cùng dễ thương, cô luôn truyền cho chúng em tình yêu với từng trang sách bằng giọng giảng ấm áp và đầy cảm xúc. Nhờ cô, những bài toán không còn khô khan mà trở nên gần gũi, ý nghĩa hơn. Chúng em biết ơn sự tận tâm và những lần được cô cho chép phạt 15 lần Tri thức Toán, đó là những bài học sâu sắc mà cô đã dành cho lớp, giúp tụi em hiểu sâu bài hơn. Chúc cô luôn mạnh khỏe và giữ mãi ngọn lửa yêu nghề, mãi kute đáng iu như vại cô nhé!"
+    ],
+    "storyB": [],
+    "gallery": [
+      { "src": "assets/teachers/12_co_trang/wipe_1.jpg", "cap": "Hội trại", "desc": "Kỷ niệm ngày cắm trại." },
+      { "src": "assets/teachers/12_co_trang/wipe_2.jpg", "cap": "Họp PH", "desc": "" },
+      { "src": "assets/teachers/12_co_trang/wipe_3.jpg", "cap": "Chụp lén", "desc": "" },
+      { "src": "assets/teachers/12_co_trang/wipe_4.jpg", "cap": "Tổng kết", "desc": "" },
+      { "src": "assets/teachers/12_co_trang/wipe_5.jpg", "cap": "Kỷ yếu", "desc": "" }
+    ]
+  },
+  "co-lan": {
+    "name": "Cô Lan",
+    "fullName": "Trần Thị Ngọc Lan",
+    "subject": "Tiếng Anh",
+    "grade": 11,
+    "role": "Giáo viên bộ môn",
+    "quote": "“Speak up — sai cũng được, miễn là dám nói.”",
+    "cover": "assets/teachers/co-lan_cover.jpg",
+    "cutout": "assets/teachers/co-lan_cutout.png",
+    "audio": "assets/teachers/co-lan/voice.mp3",
+    "fig1": { "src": "assets/teachers/co-lan_g1.jpg", "cap": "English Club" },
+    "bigQuote": "“Cô làm tụi em tin rằng mình làm được.”",
+    "bullets": ["Phát âm chuẩn", "Năng lượng tích cực", "Fashionista"],
+    "storyA": ["Tiếng Anh từng là ác mộng với nhiều đứa...", "Nhưng cô đã biến nó thành niềm vui."],
+    "storyB": ["Cảm ơn cô vì những bài học về sự tự tin."],
+    "gallery": [{ "src": "assets/teachers/co-lan_g1.jpg", "cap": "Happy" }]
+  }
+}

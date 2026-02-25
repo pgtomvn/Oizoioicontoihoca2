@@ -118,7 +118,7 @@ body.detail-page:not(.is-locked) { overflow-y: auto; height: auto; }
 .story-figure { position: relative; margin: 40px 0; padding: 10px 10px 40px; background: #fff; transform: rotate(1deg); box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
 .paper-clip { position: absolute; top: -15px; right: 20px; width: 15px; height: 45px; border: 4px solid #999; border-radius: 20px; z-index: 10; }
 .story-figure img { width: 100%; display: block; filter: sepia(0.2); }
-.story-figure figcaption { position: absolute; bottom: 10px; left: 0; width: 100%; text-align: center; font-family: var(--font-hand); color: #666; font-size: 1.4rem; }
+.story-figure figcaption { position: absolute; bottom: 5px; left: 0; width: 100%; text-align: center; font-family: var(--font-hand); color: #666; font-size: 1.4rem; }
 .gallery-head { text-align: center; margin-bottom: 30px; }
 .polaroids { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
 .polaroid { background: #fff; padding: 10px 10px 40px; box-shadow: 2px 5px 10px rgba(0,0,0,0.15); transform: rotate(var(--r)); transition: 0.3s; }
@@ -142,8 +142,123 @@ body.detail-page:not(.is-locked) { overflow-y: auto; height: auto; }
 .thanks-head { background: var(--c-brown); color: #fff; padding: 15px; display: flex; justify-content: space-between; }
 .thanks-body { padding: 20px; }
 .thanks-input { width: 100%; border: none; border-bottom: 2px solid #ccc; margin-bottom: 15px; padding: 10px; font-size: 1.1rem; }
-.thanks-modal { position: fixed; inset: 0; z-index: 20000; background: rgba(0,0,0,0.6); backdrop-filter: blur(4px); display: none; justify-content: center; align-items: center; padding: 20px; }
+/* =========================================
+   VINTAGE POSTCARD MODAL (BẢN ĐỘ GỬI LỜI NHẮN)
+   ========================================= */
+.thanks-modal {
+    position: fixed; inset: 0; z-index: 20000;
+    display: none; justify-content: center; align-items: center;
+    padding: 20px;
+}
 .thanks-modal.show { display: flex !important; }
+
+/* Lớp nền rêu mờ ảo phía sau */
+.thanks-overlay {
+    position: absolute; inset: 0;
+    background: rgba(46, 59, 44, 0.6); 
+    backdrop-filter: blur(4px);
+}
+.thanks-modal.closing {
+    animation: fadeOutOverlay 0.4s forwards;
+}
+
+.thanks-modal.closing .vintage-postcard {
+    /* Hiệu ứng giấy rơi từ từ xuống dưới và xoay nhẹ */
+    animation: foldAwayPaper 0.4s forwards cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+
+@keyframes foldAwayPaper {
+    0% { opacity: 1; transform: scale(1) rotate(-1.5deg) translateY(0); }
+    100% { opacity: 0; transform: scale(0.8) rotate(8deg) translateY(80px); }
+}
+
+@keyframes fadeOutOverlay {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+/* Tấm thiệp giấy kẻ ngang */
+.vintage-postcard {
+    position: relative;
+    width: min(480px, 95vw);
+    background: #fdfbf7;
+    /* Tạo hiệu ứng giấy học sinh kẻ ngang */
+    background-image: linear-gradient(#e1e1e1 1px, transparent 1px);
+    background-size: 100% 32px; 
+    padding: 45px 35px 35px;
+    border-radius: 4px;
+    box-shadow: 5px 15px 40px rgba(0,0,0,0.3);
+    transform: rotate(-1.5deg); /* Để hơi nghiêng cho tự nhiên */
+    animation: popInPaper 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    z-index: 10;
+    border: 1px solid #e6dfd1;
+}
+
+@keyframes popInPaper {
+    0% { opacity: 0; transform: scale(0.8) rotate(-8deg) translateY(50px); }
+    100% { opacity: 1; transform: scale(1) rotate(-1.5deg) translateY(0); }
+}
+
+/* Băng keo dán thiệp */
+.vintage-postcard .tape-strip {
+    position: absolute; top: -15px; left: 50%;
+    transform: translateX(-50%) rotate(2deg);
+    width: 120px; height: 35px;
+    background: rgba(255,255,255,0.6);
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Nút X xé nháp */
+.thanks-close {
+    position: absolute; top: 15px; right: 15px;
+    background: transparent; border: none;
+    font-size: 1.8rem; color: #8d6e63;
+    cursor: pointer; transition: 0.2s;
+}
+.thanks-close:hover { color: #e53935; transform: scale(1.1) rotate(90deg); }
+
+/* Header tấm thiệp */
+.postcard-header {
+    display: flex; justify-content: space-between; align-items: flex-start;
+    margin-bottom: 20px; border-bottom: 2px dashed #d7ccc8; padding-bottom: 10px;
+}
+.postcard-header h3 { font-size: 2.8rem; color: var(--c-brown); margin: 0; line-height: 1; }
+.stamp-decor { color: var(--c-sunset-dark); font-size: 2.5rem; opacity: 0.4; transform: rotate(15deg); }
+
+/* Chữ hướng dẫn */
+.guide-text { color: #795548; font-size: 1.2rem; margin-bottom: 25px; opacity: 0.8; }
+
+/* Form nhập liệu trên dòng kẻ ngang */
+.vintage-input, .vintage-textarea {
+    width: 100%; background: transparent; border: none;
+    font-size: 1.3rem; color: var(--c-brown); font-weight: bold;
+    margin-bottom: 15px; resize: none;
+}
+.vintage-input:focus, .vintage-textarea:focus { outline: none; }
+.vintage-input { border-bottom: 2px solid #a1887f; padding: 5px 0; }
+.vintage-textarea {
+    line-height: 32px; /* Dòng chữ phải khớp khít với dòng kẻ ngang của nền */
+    padding-top: 6px;
+    font-weight: normal;
+}
+.vintage-input::placeholder, .vintage-textarea::placeholder { color: #bcaaa4; font-weight: normal; }
+
+/* Nút Submit kiểu con tem */
+.vintage-submit-btn {
+    width: 100%;
+    background: var(--c-brown); color: #fff;
+    border: 2px dashed #fdfbf7; /* Viền đứt khúc bên trong */
+    padding: 12px; font-size: 1.3rem; font-family: var(--font-hand-2);
+    border-radius: 6px; cursor: pointer; transition: all 0.3s;
+    box-shadow: 0 0 0 4px var(--c-brown); /* Viền ngoài bao bọc */
+    margin-top: 15px; font-weight: bold;
+}
+.vintage-submit-btn:hover {
+    background: var(--c-dark-green); box-shadow: 0 0 0 4px var(--c-dark-green);
+    transform: translateY(-3px);
+}
 @keyframes fadeDown { from { opacity: 0; transform: translateY(-20px); } to { opacity: 1; transform: translateY(0); } }
 @keyframes zoomIn { from { opacity: 0; transform: scale(0.9); } to { opacity: 1; transform: scale(1); } }
 @keyframes fadeIn { to { opacity: 1; } }
@@ -426,4 +541,205 @@ body.detail-page:not(.is-locked) { overflow-y: auto; height: auto; }
 .photo-caption .pc-desc{
   opacity: 0.9;
   line-height: 1.5;
+}
+
+.craft-tag-player {
+    position: relative;
+    /* Màu giấy craft hơi ngả vàng nâu */
+    background: var(--c-cream); 
+    /* Tạo viền hơi sần và bóng đổ nhẹ */
+    border: 1px solid #d7ccc8;
+    box-shadow: 
+        inset 0 0 5px rgba(0,0,0,0.05), /* Bóng trong tạo độ sâu */
+        3px 3px 10px rgba(93, 64, 55, 0.15); /* Bóng ngoài tạo độ nổi */
+    border-radius: 12px; /* Bo góc mềm mại hơn */
+    padding: 12px;
+    margin: 25px 0 20px;
+    transform: rotate(-2deg); /* Nghiêng nhẹ cho tự nhiên */
+}
+
+/* Miếng băng keo dán góc trên trái */
+.tape-strip-corner {
+    position: absolute;
+    top: -10px; left: -12px;
+    width: 50px; height: 20px;
+    background: rgba(255,255,255,0.4);
+    transform: rotate(-45deg);
+    backdrop-filter: blur(1px);
+    border: 1px solid rgba(255,255,255,0.2);
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+.tag-content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+/* --- CÁC THÀNH PHẦN CON --- */
+
+/* 1. Đĩa than nhỏ (Size S) */
+.vinyl-record-s {
+    width: 38px; height: 38px;
+    background: #2b2b2b;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    position: relative;
+    border: 1px solid #1a1a1a;
+}
+.vinyl-record-s::before { content: ''; position: absolute; inset: 3px; border: 1px solid rgba(255,255,255,0.15); border-radius: 50%; }
+.record-label-s {
+    width: 12px; height: 12px;
+    background: var(--c-sunset-dark); /* Màu đỏ gạch */
+    border-radius: 50%; z-index: 2; border: 1px solid #111;
+}
+.record-label-s::after {
+    content: ''; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    width: 3px; height: 3px; background: #f0e6d2; border-radius: 50%;
+}
+/* Animation xoay giữ nguyên */
+.spin-animation { animation: spin-record 2.5s linear infinite; }
+
+/* 2. Thông tin giữa */
+.tag-center { flex: 1; display: flex; flex-direction: column; justify-content: center; padding-left: 5px; }
+.tag-filename {
+    font-size: 1.1rem; /* Dùng font viết tay Patrick Hand cho tự nhiên */
+    color: var(--c-brown);
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 4px;
+}
+
+/* Sóng âm nhỏ (Size S) */
+.wave-container-s { 
+    display: flex; 
+    align-items: center; 
+    gap: 2px; 
+    height: 14px; 
+    opacity: 0.5; 
+    transition: opacity 0.3s; 
+}
+
+.wave-container-s.playing { 
+    opacity: 1; 
+}
+
+.wave-container-s .bar { 
+    width: 3px; 
+    height: 3px; 
+    background: var(--c-sunset); /* Màu cam nhạt lúc dừng */
+    border-radius: 2px; 
+    transition: height 0.1s ease; 
+}
+
+/* 1. Gắn chuyển động khi có class playing */
+.wave-container-s.playing .bar { 
+    animation: wave-bounce 1s infinite ease-in-out; 
+}
+
+/* 2. Tạo độ trễ (delay) cho từng cột để nó lượn lên xuống so le nhau */
+.wave-container-s.playing .bar:nth-child(1) { animation-delay: 0.0s; }
+.wave-container-s.playing .bar:nth-child(2) { animation-delay: 0.2s; }
+.wave-container-s.playing .bar:nth-child(3) { animation-delay: 0.4s; }
+.wave-container-s.playing .bar:nth-child(4) { animation-delay: 0.1s; }
+.wave-container-s.playing .bar:nth-child(5) { animation-delay: 0.3s; }
+.wave-container-s.playing .bar:nth-child(6) { animation-delay: 0.15s; }
+
+/* 3. Định nghĩa độ cao lúc nhấp nhô */
+@keyframes wave-bounce {
+    0%, 100% { height: 3px; background: var(--c-sunset); }
+    50% { height: 14px; background: var(--c-sunset-dark); } /* Cao lên và đổi màu đậm hơn */
+}
+
+/* 3. Nút Play & Thời gian bên phải */
+.tag-right { display: flex; flex-direction: column; align-items: center; gap: 5px; }
+
+.craft-play-btn {
+    width: 34px; height: 34px;
+    border-radius: 50%;
+    /* Màu nâu đậm của gỗ/da */
+    background: var(--c-brown); 
+    color: #f0e6d2; /* Icon màu kem */
+    border: 2px solid #3e2723;
+    font-size: 0.9rem;
+    display: flex; justify-content: center; align-items: center;
+    cursor: pointer; transition: all 0.2s;
+    box-shadow: inset 0 2px 3px rgba(255,255,255,0.2), 0 2px 4px rgba(0,0,0,0.3);
+}
+.craft-play-btn:hover { transform: scale(1.1); background: var(--c-dark-green); border-color: var(--c-dark-green); }
+.craft-play-btn:active { transform: scale(0.95); }
+.craft-play-btn i { align-items: center; } /* Căn giữa icon play */
+
+.tag-time {
+    font-family: 'Courier New', monospace;
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: #795548;
+}
+
+.story-figure img,
+.story-figure video {
+    width: 100%;
+    display: block;
+    border-radius: 4px; /* Bo góc cực nhẹ cho tự nhiên */
+    filter: sepia(0.2) contrast(1.05); /* Phủ màu hoài cổ lên cả video */
+    background: #e8e4d9; /* Lót nền phòng khi video load chậm */
+    object-fit: cover; /* Đảm bảo video không bị méo tỉ lệ */
+}
+
+/* Ẩn các khối story rỗng (phòng hờ) */
+.story-content:empty {
+    display: none;
+}
+
+.vintage-video-wrapper {
+    position: relative;
+    width: 100%;
+    border-radius: 4px;
+    overflow: hidden;
+    background: #2b2b2b; /* Lót nền tối nếu video chưa load */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.vintage-video-wrapper video {
+    width: 100%;
+    display: block;
+    filter: sepia(0.2) contrast(1.05); /* Giữ màu hoài cổ phim nhựa */
+    object-fit: cover;
+    max-height: 60vh; /* Khống chế chiều cao không quá dài */
+}
+
+/* Nút Play to bự ở giữa video */
+.video-play-overlay {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    background: rgba(240, 230, 210, 0.85); /* Màu giấy craft trong suốt nhẹ */
+    border: 3px solid var(--c-brown);
+    color: var(--c-brown);
+    border-radius: 50%;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 10;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    backdrop-filter: blur(3px); /* Hiệu ứng kính mờ đằng sau nút */
+}
+
+.video-play-overlay i {
+    margin-left: 5px; /* Căn giữa icon play (vì icon tam giác bị lệch trọng tâm) */
+}
+
+.video-play-overlay:hover {
+    background: var(--c-brown);
+    color: #f0e6d2;
+    transform: scale(1.1);
 }
