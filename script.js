@@ -14,47 +14,50 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const TEACHERS_BY_GRADE = {
         10: [
-        { id:"co-lam", name:"Cô Lam", subjects:["Chủ nhiệm"], image: "assets/teachers/co-lam.jpg" },
-        { id:"co-lien", name:"Cô Liên", subjects:["Tiếng anh"] },
+        { id:"co-lam", name:"Cô Lam", subjects:["Chủ nhiệm", "Tiếng Pháp"], image: "assets/teachers/10_co_lam/avatar.jpg" },
+        { id:"co-lien", name:"Cô Liên", subjects:["Tiếng Anh"], image: "assets/teachers/10_co_lien/avatar.jpg" },
         { id:"thay-khoa", name:"Thầy Khoa", subjects:["Toán học"], image: "assets/teachers/10_thay_khoa/avatar.jpg" },
-        { id:"co-duyen", name:"Cô Duyên", subjects:["Ngữ văn"] },
-        { id:"thay-tai", name:"Thầy Tài", subjects:["Vật lý"] },
-        { id:"thay-danh", name:"Thầy Danh", subjects:["Hoá học"] },
-        { id:"thay-dung", name:"Thầy Dũng", subjects:["Địa lý"] },
-        { id:"thay-thai", name:"Thầy Thái", subjects:["Công nghệ"] },
+        { id:"co-duyen", name:"Cô Duyên", subjects:["Ngữ văn"], image: "assets/teachers/10_co_duyen/avatar.jpg" },
+        { id:"thay-tai", name:"Thầy Tài", subjects:["Vật lý"], image: "assets/teachers/10_thay_tai/avatar.jpg" },
+        { id:"thay-danh", name:"Thầy Danh", subjects:["Hoá học"], image: "assets/teachers/10_11_thay_danh/avatar.jpg" },
+        { id:"thay-dung", name:"Thầy Dũng", subjects:["Địa lý"], image: "assets/teachers/10_thay_dung/avatar.jpg" },
+        { id:"thay-thai", name:"Thầy Thái", subjects:["Công nghệ"], image: "assets/teachers/10_thay_thai/avatar.jpg" },
         { id:"thay-suyen", name:"Thầy Suyền", subjects:["Tin học"], image: "assets/teachers/10_11_12_thay_suyen/avatar.jpg" },
-        { id:"thay-khang", name:"Thầy Khang", subjects:["Thể dục"] },
+        { id:"thay-khang", name:"Thầy Khang", subjects:["Thể dục"], image: "assets/teachers/10_11_12_thay_khang/avatar.jpg" },
         { id:"co-men", name:"Cô Mến", subjects:["Giáo dục Quốc phòng"], image: "assets/teachers/10_11_co_men/avatar.jpg" },
         { id:"co-dao", name:"Cô Đào", subjects:["Lịch sử"], image: "assets/teachers/10_11_co_dao/avatar.jpg" },
+        { id:"thay-phuong", name:"Thầy Phương", subjects:["Kinh tế - Pháp luật"], image: "assets/teachers/10_12_thay_phuong/avatar.jpg" },
         ],
         11: [
-        { id:"co-hang", name:"Cô Hằng", subjects:["Chủ nhiệm","Địa lý"] },
-        { id:"co-dung", name:"Cô Dung", subjects:["Tiếng anh"] },
-        { id:"thay-nam-quoc", name:"Thầy Quốc", subjects:["Tiếng anh"] },
-        { id:"co-binh", name:"Cô Bình", subjects:["Toán học"] },
-        { id:"thay-quoc-anh", name:"Thầy Quốc Anh", subjects:["Toán học"] },
-        { id:"co-mai", name:"Cô Mai", subjects:["Ngữ văn"] },
-        { id:"co-oang", name:"Cô Oanh", subjects:["Vật lý"] },
-        { id:"thay-vo-quoc", name:"Thầy Quốc", subjects:["Vật lý"] },
-        { id:"thay-danh", name:"Thầy Danh", subjects:["Hoá học"] },
-        { id:"thay-cuong", name:"Thầy Cường", subjects:["Công nghệ"] },
+        { id:"co-hang", name:"Cô Hằng", subjects:["Chủ nhiệm","Địa lý"], image: "assets/teachers/11_co_hang/avatar.jpg" },
+        { id:"co-dung", name:"Cô Dung", subjects:["Tiếng Anh"], image: "assets/teachers/11_co_dung/avatar.jpg" },
+        { id:"thay-nam-quoc", name:"Thầy Quốc", subjects:["Tiếng Anh"], image: "assets/teachers/11_thay_nam_quoc/avatar.jpg" },
+        { id:"co-binh", name:"Cô Bình", subjects:["Toán học"], image: "assets/teachers/11_co_binh/avatar.jpg" },
+        { id:"thay-quoc-anh", name:"Thầy Quốc Anh", subjects:["Toán học"], image: "assets/teachers/11_thay_quoc_anh/avatar.jpg" },
+        { id:"co-mai", name:"Cô Mai", subjects:["Ngữ văn"], image: "assets/teachers/11_co_mai/avatar.jpg" },
+        { id:"co-oanh", name:"Cô Oanh", subjects:["Vật lý"], image: "assets/teachers/11_co_oanh/avatar.jpg" },
+        { id:"thay-vo-quoc", name:"Thầy Quốc", subjects:["Vật lý"], image: "assets/teachers/11_thay_vo_quoc/avatar.jpg" },
+        { id:"thay-danh", name:"Thầy Danh", subjects:["Hoá học"], image: "assets/teachers/10_11_thay_danh/avatar.jpg" },
+        { id:"thay-cuong", name:"Thầy Cường", subjects:["Công nghệ"], image: "assets/teachers/11_12_thay_cuong/avatar.jpg" },
         { id:"thay-suyen", name:"Thầy Suyền", subjects:["Tin học"], image: "assets/teachers/10_11_12_thay_suyen/avatar.jpg" },
-        { id:"thay-khang", name:"Thầy Khang", subjects:["Thể dục"] },
+        { id:"thay-khang", name:"Thầy Khang", subjects:["Thể dục"], image: "assets/teachers/10_11_12_thay_khang/avatar.jpg" },
         { id:"co-dao", name:"Cô Đào", subjects:["Lịch sử"], image: "assets/teachers/10_11_co_dao/avatar.jpg" },
         { id:"co-men", name:"Cô Mến", subjects:["Giáo dục Quốc phòng"], image: "assets/teachers/10_11_co_men/avatar.jpg" },
+        { id:"co-chau", name:"Cô Châu", subjects:["Kinh tế - Pháp luật"], image: "assets/teachers/11_co_chau/avatar.jpg" },
         ],
         12: [
         { id:"co-trang", name:"Cô Trang", subjects:["Chủ nhiệm","Toán học"], image: "assets/teachers/12_co_trang/avatar.jpg", featured:true },
-        { id:"co-huong", name:"Cô Hương", subjects:["Tiếng anh"] },
+        { id:"co-huong", name:"Cô Hương", subjects:["Tiếng Anh"], image: "assets/teachers/12_co_huong/avatar.jpg", featured:true },
         { id:"co-thang", name:"Cô Thắng", subjects:["Ngữ văn"], image: "assets/teachers/12_co_thang/avatar.jpg"  },
         { id:"co-tuyen", name:"Cô Tuyên", subjects:["Vật lý"], image: "assets/teachers/12_co_tuyen/avatar.jpg"  },
-        { id:"co-ha", name:"Cô Hà", subjects:["Hoá học"] },
-        { id:"thay-tuan", name:"Thầy Tuấn", subjects:["Địa lý"] },
-        { id:"thay-cuong", name:"Thầy Cường", subjects:["Công nghệ"] },
+        { id:"co-ha", name:"Cô Hà", subjects:["Hoá học"], image: "assets/teachers/12_co_ha/avatar.jpg"  },
+        { id:"thay-tuan", name:"Thầy Tuấn", subjects:["Địa lý"], image: "assets/teachers/12_thay_tuan/avatar.jpg" },
+        { id:"thay-cuong", name:"Thầy Cường", subjects:["Công nghệ"], image: "assets/teachers/11_12_thay_cuong/avatar.jpg" },
         { id:"thay-suyen", name:"Thầy Suyền", subjects:["Tin học"], image: "assets/teachers/10_11_12_thay_suyen/avatar.jpg" },
-        { id:"thay-khang", name:"Thầy Khang", subjects:["Thể dục"] },
-        { id:"co-hanh", name:"Cô Hạnh", subjects:["Lịch sử"] },
-        { id:"thay-son", name:"Thầy Sơn", subjects:["Giáo dục Quốc phòng"] },
+        { id:"thay-khang", name:"Thầy Khang", subjects:["Thể dục"], image: "assets/teachers/10_11_12_thay_khang/avatar.jpg" },
+        { id:"co-hanh", name:"Cô Hạnh", subjects:["Lịch sử"], image: "assets/teachers/12_co_hanh/avatar.jpg" },
+        { id:"thay-son", name:"Thầy Sơn", subjects:["Giáo dục Quốc phòng"], image: "assets/teachers/12_thay_son/avatar.jpg" },
+        { id:"thay-phuong", name:"Thầy Phương", subjects:["Kinh tế - Pháp luật"], image: "assets/teachers/10_12_thay_phuong/avatar.jpg" },
         ],
     };
 
@@ -137,6 +140,24 @@ document.addEventListener("DOMContentLoaded", () => {
             gsap.to("#whiteFlash", {opacity:0, duration:3});
             gsap.from("#hero .hero-photo", { scale: 1.2, duration: 2.5, ease: "power2.out" });
             gsap.from(".hero-content-center", { y: 50, opacity: 0, duration: 1.5, delay: 0.5 });
+
+            const bgMusic = document.getElementById("bg-music");
+            if (bgMusic) {
+                bgMusic.volume = 0.2;
+                
+                // Thử phát nhạc
+                bgMusic.play().catch(e => {
+                    console.log("Trình duyệt chặn autoplay. Chờ tương tác từ người dùng...");
+                    
+                    // Mẹo: Trình duyệt hiện nay rất gắt, nếu người xem KHÔNG ấn nút "Vào lớp ngay" 
+                    // mà cứ để Intro tự chạy hết, nó sẽ cấm phát nhạc vì "chưa có tương tác".
+                    // Đoạn code dưới đây sẽ "rình": Chỉ cần họ ấn bất kỳ đâu trên web (cuộn, click nút) là nhạc nổi lên liền.
+                    document.body.addEventListener('click', function playOnInteraction() {
+                        bgMusic.play();
+                        document.body.removeEventListener('click', playOnInteraction); // Chạy 1 lần rồi xóa
+                    }, { once: true });
+                });
+            }
         }
         $("#skipCinematicBtn").addEventListener("click", () => tl.progress(1));
         window.addEventListener("keydown", (e) => {
@@ -314,9 +335,27 @@ document.addEventListener("DOMContentLoaded", () => {
                 else if (jump === "outro") gsap.to(window, {duration: 1.5, scrollTo: "#outro"});
                 else if (jump === "lane") {
                     const hallIndex = parseInt(btn.dataset.hall || 0);
-                    const laneTop = $("#lane").offsetTop;
-                    const targetScroll = laneTop + (hallIndex * window.innerWidth);
-                    gsap.to(window, {duration: 2, scrollTo: targetScroll, ease: "power2.inOut"});
+                    
+                    const laneSec = document.querySelector("#lane");
+                    const world = document.querySelector(".horizontal-world");
+                    const targetHall = document.querySelectorAll(".exhibit-hall")[hallIndex];
+
+                    if (laneSec && world && targetHall) {
+                        // 1. Tọa độ bắt đầu cuộn của toàn bộ khu vực Lane
+                        const laneTop = laneSec.offsetTop;
+                        
+                        // 2. Tổng quãng đường ngang thực tế có thể cuộn (tránh chia cho 0 nếu màn hình quá to)
+                        const maxScrollX = Math.max(world.scrollWidth - window.innerWidth, 1);
+                        
+                        // 3. Tỉ lệ phần trăm vị trí ngang của Ga mục tiêu so với tổng thể (tối đa 100%)
+                        const progress = Math.min(targetHall.offsetLeft / maxScrollX, 1);
+                        
+                        // 4. Quy đổi ra quãng đường cuộn dọc (bằng đúng world.scrollWidth theo config ScrollTrigger của bạn)
+                        const targetScroll = laneTop + (progress * world.scrollWidth);
+
+                        // Cuộn mượt mà đến đúng vị trí
+                        gsap.to(window, {duration: 1.5, scrollTo: targetScroll, ease: "power2.inOut"});
+                    }
                 }
             });
         });
@@ -365,4 +404,63 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
+    // ==========================================
+    // HỆ THỐNG ÂM THANH (SOUND EFFECTS)
+    // ==========================================
+    const playSound = (id) => {
+        const audio = document.getElementById(id);
+        if (audio) {
+            audio.currentTime = 0; // Trả về đầu bài để spam click không bị lỗi
+            audio.play().catch(e => console.log("Trình duyệt chặn autoplay âm thanh:", e));
+        }
+    };
+
+    // 1. Âm thanh nút chung (Click mở/chuyển hướng)
+    $$('.nav-btn, #mapBtn, .station, #gbBtn').forEach(btn => {
+        btn.addEventListener('click', () => playSound('snd-click'));
+    });
+
+    // 2. Âm thanh nút đóng (Close)
+    $$('#mapClose').forEach(btn => {
+        btn.addEventListener('click', () => playSound('snd-close'));
+    });
+
+    // 3. Âm thanh khởi hành chuyến tàu
+    const goLaneBtn = $("#goLaneBtn");
+    if (goLaneBtn) {
+        goLaneBtn.addEventListener('click', () => {
+            playSound('snd-train');
+        });
+    }
+
+    // 4. Âm thanh chụp ảnh khi click Card Thầy Cô
+    // Vì card thầy cô được tạo bằng JS (động), ta phải bắt sự kiện click toàn trang
+    document.addEventListener('click', (e) => {
+        const card = e.target.closest('.pin-label, .note-paper');
+        if (card) {
+            e.preventDefault(); // Chặn việc chuyển trang ngay lập tức
+            playSound('snd-photo'); // Phát âm thanh tách cái
+            
+            const href = card.getAttribute('href');
+            // Chờ 350ms cho âm thanh kêu xong rồi mới chuyển trang
+            setTimeout(() => {
+                window.location.href = href;
+            }, 350); 
+        }
+    });
+
+    $$('[data-link]').forEach(btn => {
+        btn.addEventListener('click', function(e) {
+            e.preventDefault(); // Chặn hành động mặc định
+            const url = this.getAttribute('data-link');
+            
+            // Kích hoạt âm thanh click (nếu có gọi ở phần trên rồi thì có thể bỏ qua dòng playSound dưới đây)
+            playSound('snd-click'); 
+
+            // Đợi 300ms (0.3s) để nghe trọn vẹn âm thanh click rồi mới chuyển trang
+            setTimeout(() => {
+                window.location.href = url;
+            }, 300); 
+        });
+    });
 });

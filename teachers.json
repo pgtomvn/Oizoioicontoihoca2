@@ -2,22 +2,49 @@
   "___01_BAN_GIAM_HIEU_VA_CHU_NHIEM___": "=========================================================",
   
   "co-lam": {
-    "name": "Cô Lam", "fullName": "Đinh Thị Phương Lam", "subject": "Chủ nhiệm", "grade": [10],
-    "avatar": "assets/logo.png", "role": "Giáo viên Chủ nhiệm lớp 10", "quote": "", "cover": "", "cutout": "", "audio": "",
-    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, "bigQuote": "", "bullets": [], "storyA": [], "gallery": []
+    "name": "Cô Lam", "fullName": "Đinh Thị Phương Lam", "subject": "Tiếng Pháp & Chủ nhiệm", "grade": [10],
+    "avatar": "assets/teachers/10_co_lam/avatar.jpg", "role": "Chủ nhiệm & Giáo viên tiếng Pháp", 
+    "quote": "Sống là phải có đam mê, phải hết mình với việc mình làm.", 
+    "cover": "assets/teachers/10_co_lam/anh_hero.png", "cutout": "", "audio": "assets/teachers/10_co_lam/voice.mp3", "audioFileName": "REC_05092023.wav", "audioTrackName": "",
+    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, 
+    "bigQuote": "Mong cô luôn mạnh khỏe và mãi là điểm tựa ấm áp của lớp chúng em.", 
+    "bullets": ["Người dẫn đường", "Quan tâm từng học sinh"], 
+    "storyA": ["Cô Lam là giáo viên chủ nhiệm lớp 10 cũng là giáo viên tiếng Pháp của chúng em, cô luôn âm thầm quan tâm và lo lắng cho từng thành viên trong lớp. Những lời nhắc nhở nhẹ nhàng và sự động viên kịp thời của cô đã giúp chúng em vững vàng hơn trong năm học đầu cấp. Chúng em thật sự biết ơn vì được cô đồng hành và chỉ dạy."], 
+    "storyB": [], "storyC": [], "storyD": [], "storyE": [],
+    "gallery": [
+      { "src": "assets/teachers/10_co_lam/wipe_1.jpg", "cap": "Thi đua", "desc": "Lần đầu chúng mình được thi đua nhất tuần vào năm lớp 10, sẵn tinh thần đó, cô và chúng mình đã cùng nhau lưu lại ngay một tấm ảnh để ghi lại khoảnh khắc đáng nhớ này." },
+      { "src": "assets/teachers/10_co_lam/wipe_2.png", "cap": "Kỷ niệm 20.10", "desc": "" },
+      { "src": "assets/teachers/10_co_lam/wipe_3.jpg", "cap": "Khoảnh khắc đáng yêu", "desc": "" },
+      { "src": "assets/teachers/10_co_lam/wipe_4.jpg", "cap": "Tết rực rỡ", "desc": "Không khí rộn ràng trong ngày Tết cùng cô và các bạn A2K28." },
+      { "src": "assets/teachers/10_co_lam/wipe_5.jpg", "cap": "Ảnh lớp", "desc": "" }
+    ]
   },
   "co-hang": {
-    "name": "Cô Hằng", "fullName": "Hoàng Thị Kim Hằng", "subject": "Địa Lý", "grade": [11],
-    "avatar": "assets/logo.png", "role": "Giáo viên Chủ nhiệm lớp 11", "quote": "", "cover": "", "cutout": "", "audio": "",
-    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, "bigQuote": "", "bullets": [], "storyA": [], "gallery": []
+    "name": "Cô Hằng", "fullName": "Hoàng Thị Kim Hằng", "subject": "Địa Lý & Chủ nhiệm", "grade": [11],
+    "avatar": "assets/teachers/11_co_hang/avatar.jpg", "role": "Chủ nhiệm & Giáo viên Địa lý", 
+    "quote": "“Điểm toán lớp mình dạo này ổn hong mấy đứa?”", "cover": "assets/teachers/11_co_hang/anh_hero.png", "cutout": "", "audio": "assets/teachers/11_co_hang/voice.mp3", "audioFileName": "REC_2452025.wav", "audioTrackName": "Lời chúc của cô Hằng dành cho 11A2",
+    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, 
+    "bigQuote": "Chúc cô luôn mạnh khỏe và mãi là chỗ dựa vững vàng của lớp chúng em.", 
+    "bullets": ["Nhỏ nhắn", "Nhẹ nhàng"], 
+    "storyA": ["Cô Hằng - giáo viên chủ nhiệm và cũng là cô dạy Địa của lớp 11 chúng em. Cô luôn tận tâm và âm thầm dõi theo từng bước tiến của cả lớp. Không chỉ trên bục giảng, mà cả trong những lúc lớp gặp khó khăn, cô vẫn luôn là người đứng phía sau nhắc nhở, động viên và định hướng cho tụi em. Những bài học về địa lý qua lời giảng của cô không còn khô khan mà trở nên gần gũi, dễ hiểu hơn nhờ cách cô liên hệ thực tế và giải thích cặn kẽ."], 
+    "storyB": ["Là giáo viên chủ nhiệm, cô quan tâm đến từng bạn trong lớp, từ chuyện học tập đến những thay đổi nhỏ trong tâm trạng. Có những lời nhắc tưởng chừng đơn giản nhưng lại khiến tụi em suy nghĩ và trưởng thành hơn rất nhiều. Nhờ có cô đồng hành, lớp 11 của chúng em trở nên vững vàng và gắn kết hơn. Chúng em thật sự trân trọng và biết ơn vì có cô bên cạnh trong năm học này."], 
+    "storyC": [], "storyD": [], "storyE": [],
+    "gallery": [
+      { "src": "assets/teachers/11_co_hang/wipe_1.jpg", "cap": "Cô Hằng", "desc": "" },
+      { "src": "assets/teachers/11_co_hang/wipe_2.jpg", "cap": "Cô Hằng x2", "desc": "" },
+      { "src": "assets/teachers/11_co_hang/wipe_3.jpg", "cap": "Kỷ niệm Giải I GĐTH", "desc": "Lần đầu tiên chúng mình được giải I hội thi Giai điệu tuổi hồng. Tấm ảnh này được chúng mình cùng nhau chụp với cô để lưu giữ một trang kỉ niệm đáng nhớ." },
+      { "src": "assets/teachers/11_co_hang/wipe_4.jpg", "cap": "Kỷ niệm 20.11", "desc": "" },
+      { "src": "assets/teachers/11_co_hang/wipe_5.jpg", "cap": "Kỷ niệm Giải I GĐTH", "desc": "Lần đầu tiên chúng mình được giải I hội thi Giai điệu tuổi hồng. Tấm ảnh này được chúng mình cùng nhau chụp với cô để lưu giữ một trang kỉ niệm đáng nhớ." }
+    ]
   },
   "co-trang": {
-    "name": "Cô Trang", "fullName": "Thân Thị Phương Trang", "subject": "Toán Học", "grade": [12],
+    "name": "Cô Trang", "fullName": "Thân Thị Phương Trang", "subject": "Toán & Chủ nhiệm", "grade": [12],
     "avatar": "assets/teachers/12_co_trang/avatar.jpg", "role": "Chủ nhiệm & Giáo viên Toán",
-    "quote": "“Sau chuyện này mình rút ra được kinh nghiệm gì nè?”", "cover": "assets/teachers/12_co_trang/anh_hero.png",
-    "cutout": "assets/teachers/12_co_trang_cutout.png", "audio": "assets/teachers/12_co_trang/voice.m4a",
-    "audioFileName": "REC_24052026.wav", "audioTrackName": "Lời chúc của cô Trang dành cho 12A2",
-    "fig1": { "src": "assets/teachers/12_co_trang/wipe_1.jpg", "cap": "Một chiều mưa 12A2..." },
+    "quote": "“Sau chuyện này mình rút ra được kinh nghiệm gì nè?”", 
+    "cover": "assets/teachers/12_co_trang/anh_hero.png", "cutout": "assets/teachers/12_co_trang_cutout.png", 
+    "audio": "assets/teachers/12_co_trang/voice.m4a", "audioFileName": "REC_24052026.wav", "audioTrackName": "Lời chúc của cô Trang dành cho 12A2",
+    "fig1": { "src": "assets/teachers/12_co_trang/fig1.jpg", "cap": "Cô Trang rạng rỡ cùng các bạn nữ A2K28." },
+    "fig2": { "src": "assets/teachers/12_co_trang/fig2.mp4", "cap": "Mùa Giai điệu tuổi hồng của cô và A2 - Hành trình chinh phục người hâm mộ." }, "fig3": {}, "fig4": {}, "fig5": {},
     "bigQuote": "“Cô Trang, chúng em thương cô rất nhiều. Cảm ơn cô vì đã giữ tụi em ‘ở lại’ với nhau.”",
     "bullets": ["Chăm nom đàn con thơ", "Tâm lý hết nấc", "Nghiêm nhưng thương"],
     "storyA": [
@@ -25,15 +52,20 @@
     ],
     "storyB": [
       "Là giáo viên chủ nhiệm, cô thương lớp rất nhiều, nhưng cũng đủ nghiêm khắc để chúng em không được lơ là. Cả lớp chắc sẽ nhớ mãi câu nói quen thuộc của cô: “Rồi sau chuyện này mình rút ra được kinh nghiệm gì?” Nhờ những chia sẻ đó của cô mà chúng em học được cách nhìn lại bản thân, biết đặt mục tiêu rõ ràng hơn và hiểu rằng mỗi việc xảy ra đều có điều để mình rút kinh nghiệm. Nhờ cô, môn Toán không còn chỉ là những con số khô khan, mà còn là bài học về sự cố gắng và trách nhiệm."
-    ], "storyC": [
+    ], 
+    "storyC": [
       "Lớp 12 sẽ không thể trọn vẹn như vậy nếu không có cô làm chủ nhiệm. Chúng em thật sự rất quý và rất biết ơn cô."
-    ], "storyD": [], "storyE": [],
+    ], 
+    "storyD": [], "storyE": [],
     "gallery": [
-      { "src": "assets/teachers/12_co_trang/wipe_1.jpg", "cap": "Hội trại", "desc": "Kỷ niệm ngày cắm trại." },
-      { "src": "assets/teachers/12_co_trang/wipe_2.jpg", "cap": "Họp PH", "desc": "" },
-      { "src": "assets/teachers/12_co_trang/wipe_3.jpg", "cap": "Chụp lén", "desc": "" },
-      { "src": "assets/teachers/12_co_trang/wipe_4.jpg", "cap": "Tổng kết", "desc": "" },
-      { "src": "assets/teachers/12_co_trang/wipe_5.jpg", "cap": "Kỷ yếu", "desc": "" }
+      { "src": "assets/teachers/12_co_trang/wipe_1.jpg", "cap": "Trò chơi nhỏ", "desc": "" },
+      { "src": "assets/teachers/12_co_trang/wipe_2.jpg", "cap": "Kỷ niệm 20.10", "desc": "Mùa 20.11 cuối cùng của năm cấp 3 với chúng mình là một kỷ niệm đáng nhớ. Cả lớp và cô cùng nhau lưu lại những khoảnh khắc đẹp nhất." },
+      { "src": "assets/teachers/12_co_trang/wipe_3.jpg", "cap": "Họp phụ huynh", "desc": "" },
+      { "src": "assets/teachers/12_co_trang/wipe_4.jpg", "cap": "Thành phố mộng mơ", "desc": "Cô Trang và chúng mình đã có một chuyến đi cùng nhau đến thành phố mộng mơ - Đà Lạt. Chuyến đi 3N2Đ, dù không quá dài nhưng lại để lại nhiều ký ức đẹp cho chúng mình và cô, giúp mọi người trở nên gắn kết và thân thiết hơn nữa. Chúng mình mong rằng, sau này, dù năm năm, mười năm, hay hai mươi năm đi nữa thì chúng mình vẫn sẽ cùng cô đồng hành trong những chuyến đi tiếp theo nhé!" },
+      { "src": "assets/teachers/12_co_trang/wipe_5.jpg", "cap": "Kỷ niệm 20.11", "desc": "Một ngày Nhà giáo Việt Nam đặc biệt, không quá vội vã nhưng lại đầy ý nghĩa." },
+      { "src": "assets/teachers/12_co_trang/wipe_8.png", "cap": "Cô Trang", "desc": "" },
+      { "src": "assets/teachers/12_co_trang/wipe_6.jpg", "cap": "Kỷ niệm 20.10", "desc": "Cả lớp cùng nhau ghi lại kỷ niệm đáng yêu này." },
+      { "src": "assets/teachers/12_co_trang/wipe_7.jpg", "cap": "Ngày khai giảng", "desc": "" }
     ]
   },
 
@@ -41,38 +73,97 @@
 
   "thay-khoa": {
     "name": "Thầy Khoa", "fullName": "Lê Phan Đăng Khoa", "subject": "Toán Học", "grade": [10],
-    "avatar": "assets/logo.png", "role": "Giáo viên Toán Học", "quote": "", "cover": "", "cutout": "", "audio": "",
-    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, "bigQuote": "", "bullets": [], "storyA": [], "gallery": []
+    "avatar": "assets/logo.png", "role": "Giáo viên Toán Học", 
+    "quote": "“Để thầy tịnh tiến điểm cho nhaaa!”", 
+    "cover": "assets/teachers/10_thay_khoa/anh_hero.jpg", "cutout": "", "audio": "", "audioFileName": "", "audioTrackName": "",
+    "fig1": { "src": "assets/teachers/10_thay_khoa/fig1.mp4", "cap": "Cả lớp cùng thầy Khoa đón sinh nhật <3" }, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, 
+    "bigQuote": "Cảm ơn thầy vì đã đồng hành cùng lớp 10 chúng em bằng tất cả sự tận tâm và chân thành.", 
+    "bullets": ["Điềm tĩnh", "Nam thần Toán học"], 
+    "storyA": ["Thầy Khoa là giáo viên Toán của lớp 10 của chúng em, thầy là người đã mang đến cho chúng em không chỉ kiến thức mà còn cả sự tự tin và bản lĩnh khi đứng trước mọi thử thách."],
+    "storyB": ["Với phong thái gần gũi, hài hước và đầy nhiệt huyết, thầy luôn kiên nhẫn lắng nghe và động viên từng học sinh, giúp chúng em hiểu sâu hơn từng bài toán. Nhờ thầy, chúng em hiểu rằng mỗi lần cất tiếng nói là một lần trưởng thành hơn."], 
+    "storyC": [], "storyD": [], "storyE": [],
+    "gallery": [
+      { "src": "assets/teachers/10_thay_khoa/wipe_1.jpg", "cap": "Đu trend", "desc": "" },
+      { "src": "assets/teachers/10_thay_khoa/wipe_2.jpg", "cap": "Ảnh lớp", "desc": "" },
+      { "src": "assets/teachers/10_thay_khoa/wipe_3.jpg", "cap": "Ảnh lớp", "desc": "" },
+      { "src": "assets/teachers/10_thay_khoa/wipe_4.jpg", "cap": "Nam vương Hùng Vương", "desc": "" },
+      { "src": "assets/teachers/10_thay_khoa/wipe_5.jpg", "cap": "Ảnh lớp", "desc": "" }
+    ]
   },
   "co-binh": {
-    "name": "Cô Bình", "fullName": "Cô Bình", "subject": "Toán Học", "grade": [11],
-    "avatar": "assets/logo.png", "role": "Giáo viên Toán Học", "quote": "", "cover": "", "cutout": "", "audio": "",
-    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, "bigQuote": "", "bullets": [], "storyA": [], "gallery": []
+    "name": "Cô Bình", "fullName": "Hoàng Hải Bình", "subject": "Toán Học", "grade": [11],
+    "avatar": "assets/logo.png", "role": "Giáo viên Toán Học", 
+    "quote": "“Có những người lái đò chỉ đồng hành một chặng ngắn, nhưng đủ để đặt nền móng cho cả một hành trình dài.”", 
+    "cover": "assets/teachers/11_co_binh/anh_hero.png", "cutout": "", "audio": "", "audioFileName": "", "audioTrackName": "",
+    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, 
+    "bigQuote": "“Dù cô không dạy lớp đến cuối năm, chúng em vẫn luôn trân trọng quãng thời gian được cô hướng dẫn và sẽ nhớ mãi hình ảnh cô trên bục giảng trong những ngày đầu năm lớp 11.”", 
+    "bullets": ["Tóc dài suôn mượt", "Tác phong nhanh lẹ"], 
+    "storyA": ["Cô Bình - cô giáo Toán lớp 11 của chúng em. Tuy chỉ đồng hành cùng lớp gần hết học kỳ I nhưng đã để lại trong chúng em rất nhiều ấn tượng và tình cảm. Ngay từ những buổi học đầu tiên, cô đã tạo cho lớp cảm giác vừa nghiêm túc vừa gần gũi. Cô không chỉ dạy kiến thức mà còn quan tâm đến cách tụi em tiếp cận và hiểu vấn đề, luôn để ý xem lớp còn đang vướng ở đâu để điều chỉnh bài giảng cho phù hợp."], 
+    "storyB": ["Những tiết học của cô không chỉ giúp chúng em hiểu bài hơn mà còn tiếp thêm sự tự tin mỗi khi đối diện với những bài toán khó. Cô luôn giảng lại thật kỹ những phần cả lớp còn lúng túng, kiên nhẫn đi từng bước để tụi em nắm chắc bản chất chứ không học qua loa cho xong. Mỗi lần kiểm tra hay làm bài tập nâng cao, cô đều nhắc tụi em bình tĩnh, làm chắc từng câu một, đừng vội vàng vì áp lực điểm số. Sự nhẹ nhàng nhưng nghiêm túc ấy dần giúp lớp hình thành thói quen học tập cẩn thận và có trách nhiệm hơn."], 
+    "storyC": ["Dù thời gian cô dạy không quá dài, cô vẫn kịp xây dựng cho tụi em một nền tảng vững vàng trong những tháng đầu năm học. Những kiến thức và cách học mà cô truyền đạt vẫn theo tụi em suốt chặng đường sau đó."], "storyD": [], "storyE": [],
+    "gallery": [
+      { "src": "assets/teachers/11_co_binh/wipe_1.jpg", "cap": "Cô Bình", "desc": "" }
+    ]
   },
   "thay-quoc-anh": {
     "name": "Thầy Quốc Anh", "fullName": "Trần Nguyễn Quốc Anh", "subject": "Toán Học", "grade": [11],
-    "avatar": "assets/logo.png", "role": "Giáo viên Toán Học", "quote": "", "cover": "", "cutout": "", "audio": "",
-    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, "bigQuote": "", "bullets": [], "storyA": [], "gallery": []
+    "avatar": "assets/logo.png", "role": "Giáo viên Toán Học", 
+    "quote": "“Hiểu thật vững hôm nay để tự tin bước tiếp ngày mai.”", 
+    "cover": "assets/teachers/11_thay_quoc_anh/anh_hero.png", "cutout": "", "audio": "", "audioFileName": "", "audioTrackName": "",
+    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, 
+    "bigQuote": "“Chúng em xin cảm ơn thầy vì đã tận tâm đồng hành cùng lớp trong suốt thời gian qua. Chúc thầy luôn nhiều sức khỏe, giữ vững nhiệt huyết và tiếp tục truyền cảm hứng cho thật nhiều thế hệ học sinh sau này.”", 
+    "bullets": [], 
+    "storyA": ["Thầy Quốc Anh là giáo viên Toán của lớp chúng em ở nửa học kỳ sau, người đã tiếp nối và đồng hành cùng lớp trong chặng đường còn lại của năm 11. Năm học ấy thật đặc biệt khi chúng em có đến hai thầy cô dạy Toán, và mỗi người đều để lại một dấu ấn riêng. Sự xuất hiện của thầy ở giai đoạn sau không hề tạo cảm giác xa lạ, ngược lại còn giúp lớp nhanh chóng bắt nhịp và tiếp tục cố gắng."], 
+    "storyB": ["Thầy giảng bài rất rõ ràng, dễ hiểu và luôn đi thẳng vào trọng tâm, giúp tụi em hệ thống lại kiến thức đã học từ đầu năm một cách mạch lạc hơn. Những phần tưởng như rối rắm cũng được thầy phân tích từng bước nên ai chăm chú nghe đều có thể nắm được cách làm. Tuy vậy, đề thầy cho luyện tập và kiểm tra lại khá thử thách, buộc tụi em phải thật sự hiểu bài và suy nghĩ kỹ càng chứ không thể làm qua loa. Chính điều đó khiến lớp dần nâng cao khả năng tự học và rèn được sự cẩn thận trong từng bước giải."], 
+    "storyC": ["Nhờ sự trách nhiệm và phương pháp dạy rõ ràng của thầy, chúng em dần tự tin hơn với môn Toán ở giai đoạn cuối năm học. Khoảng thời gian được thầy đồng hành tuy không trọn vẹn cả năm nhưng đủ để lại trong chúng em nhiều sự trân trọng."], "storyD": [], "storyE": [],
+    "gallery": [
+      { "src": "assets/teachers/11_thay_quoc_anh/wipe_1.jpg", "cap": "Thầy Quốc Anh", "desc": "" },
+      { "src": "assets/teachers/11_thay_quoc_anh/wipe_2.png", "cap": "Kỷ niệm 19.11", "desc": "" }
+    ]
   },
 
   "___03_TO_NGU_VAN___": "=========================================================",
 
   "co-duyen": {
-    "name": "Cô Duyên", "fullName": "Phương Duyên", "subject": "Ngữ Văn", "grade": [10],
-    "avatar": "assets/logo.png", "role": "Giáo viên Ngữ Văn", "quote": "", "cover": "", "cutout": "", "audio": "",
-    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, "bigQuote": "", "bullets": [], "storyA": [], "gallery": []
+    "name": "Cô Duyên", "fullName": "Nguyễn Phương Duyên", "subject": "Ngữ Văn", "grade": [10],
+    "avatar": "assets/logo.png", "role": "Giáo viên Ngữ Văn", 
+    "quote": "“Tụi em chép phạt 15 lần Tri thức Ngữ Văn trang 20 nha, mai hông nộp thì tăng lên 20 lần”", 
+    "cover": "assets/teachers/10_co_duyen/anh_hero.png", "cutout": "", "audio": "assets/teachers/10_co_duyen/voice.mp3", "audioFileName": "REC_30012026.wav", "audioTrackName": "",
+    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, 
+    "bigQuote": "Chúc cô luôn mạnh khỏe và giữ mãi ngọn lửa yêu nghề, mãi kute đáng iu như vại cô nhé!", 
+    "bullets": ["Nhỏ nhắn","Truyền cảm"], 
+    "storyA": ["Cô Duyên là giáo viên Ngữ văn lớp 10 của chúng em, cô là một cô giáo nhỏ nhắn với nụ cười vô cùng dễ thương, cô luôn truyền cho chúng em tình yêu với từng trang sách bằng giọng giảng ấm áp và đầy cảm xúc. Nhờ cô, những bài văn không còn khô khan mà trở nên gần gũi, ý nghĩa hơn. Chúng em biết ơn sự tận tâm và những lần được cô cho chép phạt 15 lần Tri thức ngữ văn, đó là những bài học sâu sắc mà cô đã dành cho lớp, giúp tụi em hiểu sâu bài hơn."], 
+    "storyB": [], "storyC": [], "storyD": [], "storyE": [],
+    "gallery": [
+      { "src": "assets/teachers/10_co_duyen/wipe_1.JPG", "cap": "Cô Duyên", "desc": "" },
+      { "src": "assets/teachers/10_co_duyen/wipe_2.jpg", "cap": "Cũng là cô Duyên", "desc": "" },
+      { "src": "assets/teachers/10_co_duyen/wipe_3.jpg", "cap": "Ảnh lớp", "desc": "" },
+      { "src": "assets/teachers/10_co_duyen/wipe_4.jpg", "cap": "Người đẹp bên tán cây", "desc": "" },
+      { "src": "assets/teachers/10_co_duyen/wipe_5.jpg", "cap": "Ảnh lớp", "desc": "" }
+    ]
   },
   "co-mai": {
     "name": "Cô Mai", "fullName": "Phạm Trúc Mai", "subject": "Ngữ Văn", "grade": [11],
-    "avatar": "assets/logo.png", "role": "Giáo viên Ngữ Văn", "quote": "", "cover": "", "cutout": "", "audio": "",
-    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, "bigQuote": "", "bullets": [], "storyA": [], "gallery": []
+    "avatar": "assets/logo.png", "role": "Giáo viên Ngữ Văn", 
+    "quote": "“Hello mấy bé, mấy bé ráng học chăm nhaa!”", 
+    "cover": "assets/teachers/11_co_mai/anh_hero.png", "cutout": "", "audio": "assets/teachers/11_co_mai/voice.mp3", "audioFileName": "REC_11052026.wav", "audioTrackName": "Lời chúc của cô Mai dành cho 12A2",
+    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, 
+    "bigQuote": "“Với chúng em, cô không chỉ dạy Văn mà còn dạy chúng em biết suy nghĩ chín chắn và sống tinh tế hơn.”", 
+    "bullets": ["Giọng đọc truyền cảm", "“Mấy bé”"], 
+    "storyA": ["Cô Mai dạy Văn là một cô giáo rất xinh và có nụ cười tươi khiến lớp học lúc nào cũng rạng rỡ hơn hẳn. Ngay từ khi bước vào lớp, cô đã tạo cảm giác gần gũi và dễ chịu cho tụi em. Cô giảng bài nhẹ nhàng, khéo léo và có cách dẫn dắt rất tự nhiên nên mỗi tiết Văn đều trôi qua nhanh mà không hề nhàm chán. Những phần phân tích của cô rõ ràng, đi đúng trọng tâm, giúp tụi em hiểu được nội dung lẫn ý nghĩa sâu xa của tác phẩm mà không cảm thấy quá nặng nề."], 
+    "storyB": ["Không chỉ dạy kiến thức, cô còn dạy tụi em cách cảm nhận và suy nghĩ chín chắn hơn trước mỗi vấn đề. Khi chúng em mắc lỗi hay chưa làm tốt, cô không trách mắng gay gắt mà kiên nhẫn nhắc nhở, để cả lớp tự nhìn lại và rút kinh nghiệm. Sự tận tâm và tinh tế của cô khiến tụi em vừa nể vừa quý."], 
+    "storyC": [], "storyD": [], "storyE": [],
+    "gallery": [
+      { "src": "assets/teachers/11_co_mai/wipe_1.JPG", "cap": "Cô Mai", "desc": "" },
+      { "src": "assets/teachers/11_co_mai/wipe_2.JPG", "cap": "Cô Mai x2", "desc": "" }
+    ]
   },
   "co-thang": {
     "name": "Cô Thắng", "fullName": "Phạm Thị Năm Thắng", "subject": "Ngữ Văn", "grade": [12],
     "avatar": "assets/teachers/12_co_thang/avatar.jpg", "role": "Giáo viên Ngữ Văn",
     "quote": "“12A2 thì mấy bài này dễ, 12A2 thì đề phải khó hơn, 12A2 khác với những lớp khác.”",
-    "cover": "assets/teachers/12_co_thang/anh_hero.png", "cutout": "assets/teachers/12_co_thang_cutout.png", "audio": "",
-    "audioFileName": "REC_24052026.wav", "audioTrackName": "Lời chúc của cô Thắng dành cho 12A2",
+    "cover": "assets/teachers/12_co_thang/anh_hero.png", "cutout": "assets/teachers/12_co_thang_cutout.png", 
+    "audio": "", "audioFileName": "REC_24052026.wav", "audioTrackName": "Lời chúc của cô Thắng dành cho 12A2",
     "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {},
     "bigQuote": "“Cô Thắng ơi, chúng em thật sự rất yêu cô. Mong rằng sau này, nếu có dịp, chúng em vẫn sẽ cùng cô hát thêm nhiều bài hát thật ý nghĩa nữa nhé!”",
     "bullets": ["Giáo viên dễ thương số 1", "Tâm lý hết nấc"],
@@ -96,79 +187,261 @@
 
   "co-lien": {
     "name": "Cô Liên", "fullName": "Nguyễn Thị Ngọc Liên", "subject": "Tiếng Anh", "grade": [10],
-    "avatar": "assets/logo.png", "role": "Giáo viên Tiếng Anh", "quote": "", "cover": "", "cutout": "", "audio": "",
-    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, "bigQuote": "", "bullets": [], "storyA": [], "gallery": []
+    "avatar": "assets/logo.png", "role": "Giáo viên Tiếng Anh", 
+    "quote": "“Mấy đứa đi thi nhớ cẩn thận bài làm nhee!”", "cover": "assets/teachers/10_co_lien/anh_hero.jpg", "cutout": "", "audio": "assets/teachers/10_co_lien/voice.mp3", "audioFileName": "REC_20112023.wav", "audioTrackName": "",
+    "fig1": {"src": "assets/teachers/10_co_lien/fig1.JPG", "cap": "Một ngày Phụ nữ Việt Nam thật hạnh phúc cùng cô Liên và các bạn nữ."}, "fig2": { "src": "assets/teachers/10_co_lien/fig2.jpg", "cap": "Cả lớp cùng cô chụp ảnh lưu niệm."}, "fig3": {}, "fig4": {}, "fig5": {}, 
+    "bigQuote": "Những bài học cùng cô sẽ luôn là một phần đáng nhớ của năm lớp 10. Cảm ơn cô vì đã đồng hành cùng lớp bằng tất cả sự tận tâm và yêu thương.", 
+    "bullets": ["Tận tình","Quan tâm học sinh","Người mẹ hiền"], 
+    "storyA": ["Cô Liên – giáo viên Tiếng Anh lớp 10 của chúng em – là một người luôn mang đến nguồn năng lượng tích cực và cảm hứng trong mỗi tiết học. Ngay từ những buổi đầu năm, cô đã tạo cho lớp cảm giác gần gũi bằng nụ cười hiền và giọng nói nhẹ nhàng, ấm áp. Cô không chỉ dạy chúng em kiến thức trong sách giáo khoa mà còn chia sẻ nhiều câu chuyện thú vị về văn hóa, con người ở các nước nói tiếng Anh, khiến bài học trở nên sống động và thực tế hơn."], 
+    "storyB": [
+      "Trong giờ học, cô thường tổ chức các hoạt động nhóm, trò chơi nhỏ hay những đoạn hội thoại để chúng em thực hành giao tiếp. Nhờ vậy, lớp học lúc nào cũng sôi nổi, ai cũng có cơ hội được nói và thể hiện bản thân. Khi chúng em phát âm sai hay chưa hiểu bài, cô không hề trách mắng mà kiên nhẫn sửa từng chút một, giải thích cặn kẽ cho đến khi cả lớp nắm được vấn đề. Chính sự tận tâm ấy đã giúp nhiều bạn từ rụt rè, thiếu tự tin dần mạnh dạn hơn khi nói tiếng Anh."
+    ], "storyC": [
+      "Không chỉ là một giáo viên giỏi chuyên môn, cô Liên còn rất quan tâm đến học sinh. Cô luôn lắng nghe, động viên và khích lệ chúng em cố gắng hơn mỗi ngày. Nhờ cô, môn Tiếng Anh không còn là nỗi lo mà trở thành niềm yêu thích của nhiều bạn trong lớp. Em thật sự trân trọng và biết ơn vì đã được học với cô Liên – một người cô vừa tận tâm, vừa truyền cảm hứng cho chúng em trên hành trình chinh phục tri thức."
+    ], "storyD": [], "storyE": [],
+    "gallery": [
+      { "src": "assets/teachers/10_co_lien/wipe_1.JPG", "cap": "Cô Liên", "desc": "" },
+      { "src": "assets/teachers/10_co_lien/wipe_2.JPG", "cap": "Cũng là cô Liên", "desc": "" },
+      { "src": "assets/teachers/10_co_lien/wipe_5.JPG", "cap": "Cô Liên và tổ Ngoại Ngữ", "desc": "(Từ trái sang phải) Trong hình lần lượt là thầy Luân, cô Dung, cô Liên, thầy Nhân, cô Hương và cuối cùng là cô Thường." },
+      { "src": "assets/teachers/10_co_lien/wipe_3.JPG", "cap": "Kỷ niệm 20.10", "desc": "Cô vui mừng và xúc động khi được bạn Phát thay mặt lớp tặng hoa." },
+      { "src": "assets/teachers/10_co_lien/wipe_4.JPG", "cap": "Kỷ niệm 20.10", "desc": "Một tấm ảnh tập thể cùng cô và các bạn nữ A2K28 để lưu lại khoảnh khắc đặc biệt nhân ngày Phụ nữ Việt Nam." }
+    ]
   },
   "co-dung": {
     "name": "Cô Dung", "fullName": "Nguyễn Thị Ngọc Dung", "subject": "Tiếng Anh", "grade": [11],
-    "avatar": "assets/logo.png", "role": "Giáo viên Tiếng Anh", "quote": "", "cover": "", "cutout": "", "audio": "",
-    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, "bigQuote": "", "bullets": [], "storyA": [], "gallery": []
+    "avatar": "assets/logo.png", "role": "Giáo viên Tiếng Anh", 
+    "quote": "“One star for you, one scar for you!”", 
+    "cover": "assets/teachers/11_co_dung/anh_hero.png", "cutout": "", "audio": "assets/teachers/11_co_dung/voice.mp3", "audioFileName": "REC_08032025", "audioTrackName": "",
+    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, 
+    "bigQuote": "“Chúng em xin cảm ơn cô vì tất cả sự nhiệt huyết và yêu thương cô đã dành cho lớp.”", 
+    "bullets": ["Dễ thương", "Chiều học sinh"], 
+    "storyA": ["Cô Dung dạy Tiếng Anh của chúng em là một người rất vui vẻ và dễ thương, lúc nào cũng mang đến cho lớp nguồn năng lượng tích cực. Mỗi khi cô bước vào lớp với nụ cười quen thuộc, không khí học tập dường như nhẹ nhàng hơn hẳn. Những bài giảng của cô lôi cuốn và dễ hiểu, cách cô giải thích từ vựng hay cấu trúc ngữ pháp đều rõ ràng nên chúng em dần cảm thấy tự tin hơn với môn chuyên của mình. Nhờ sự nhiệt tình và phong thái gần gũi ấy, chúng em ngày càng yêu thích Tiếng Anh hơn chứ không còn xem đó chỉ là một môn học bắt buộc."], 
+    "storyB": ["Cô dạy lớp ngày nào cũng cười, tạo cho chúng em cảm giác thoải mái và không quá áp lực. Chúng em nhớ lắm những lúc cô kể chuyện ma cho cả lớp nghe để “đổi gió”, vừa vui vừa hồi hộp nhưng ai cũng chăm chú lắng nghe. Những khoảnh khắc đó khiến giờ học trở nên đáng nhớ hơn rất nhiều. Đối với chúng em, cô không chỉ là một giáo viên tận tâm mà còn là người đã mang đến thật nhiều kỷ niệm đẹp trong năm học."], 
+    "storyC": [], "storyD": [], "storyE": [],
+    "gallery": [
+      { "src": "assets/teachers/11_co_dung/wipe_1.jpg", "cap": "Kỷ niệm 8.3", "desc": "Cô Dung và các bạn A2K28 chụp ảnh kỷ niệm nhân ngày Quốc tế Phụ nữ." }
+    ]
   },
   "thay-nam-quoc": {
     "name": "Thầy Quốc", "fullName": "Lê Nam Quốc", "subject": "Tiếng Anh", "grade": [11],
-    "avatar": "assets/logo.png", "role": "Giáo viên Tiếng Anh", "quote": "", "cover": "", "cutout": "", "audio": "",
-    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, "bigQuote": "", "bullets": [], "storyA": [], "gallery": []
+    "avatar": "assets/logo.png", "role": "Giáo viên Tiếng Anh", 
+    "quote": "“Các em chú ý, nhìn dễ vậy thôi chứ làm là dễ sai á!”", 
+    "cover": "assets/teachers/11_thay_nam_quoc/anh_hero.png", "cutout": "", "audio": "assets/teachers/11_thay_nam_quoc/voice.mp3", "audioFileName": "REC_19112024", "audioTrackName": "",
+    "fig1": {"src": "assets/teachers/11_thay_nam_quoc/fig1.jpg", "cap": "Câu lạc bộ Tiếng Anh (HVEC) chúc mừng thầy nhân ngày Nhà giáo Việt Nam."}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, 
+    "bigQuote": "“Chúng em rất trân trọng và biết ơn vì được học với thầy. Những gì thầy dạy không chỉ là kiến thức Tiếng Anh mà còn là sự cẩn thận, trách nhiệm và tinh thần cố gắng mà tụi em sẽ luôn ghi nhớ.”", 
+    "bullets": ["Người cha thứ hai", "Nghiêm khắc nhưng rất thương học sinh"], 
+    "storyA": ["Thầy Quốc – một trong hai giáo viên Tiếng Anh của lớp chuyên chúng em – là người luôn dạy học rất nghiêm túc và đầy trách nhiệm. Thầy yêu cầu cao, sửa bài cực kỳ kỹ lưỡng và nhắc nhở tụi em từng lỗi nhỏ từ ngữ pháp, phát âm đến cách dùng từ. Nhờ vậy mà ai trong lớp cũng phải thật sự cố gắng, không thể chủ quan dù chỉ một chút."], 
+    "storyB": ["Mỗi tiết học với thầy đều được chuẩn bị chu đáo. Thầy không chỉ dạy kiến thức trong sách mà còn mở rộng thêm nhiều điều thú vị, giúp tụi em hiểu sâu và nhớ lâu hơn. Có những lúc làm bài tưởng chừng rất đơn giản, nhưng đúng như lời thầy nói, nếu không cẩn thận là sai ngay. Chính sự nghiêm khắc ấy đã rèn cho tụi em tính tỉ mỉ, cẩn thận và tinh thần học tập nghiêm túc."], 
+    "storyC": ["Tuy nghiêm túc trong học tập, thầy cũng có những lúc rất vui vẻ và hài hước. Thầy kể vài câu chuyện nhỏ, pha chút “miếng hài” nhẹ nhàng khiến cả lớp bật cười, giúp không khí bớt căng thẳng và tụi em cảm thấy thoải mái hơn khi học."],  
+    "storyD": [], "storyE": [],
+    "gallery": [
+      { "src": "assets/teachers/11_thay_nam_quoc/wipe_1.jpg", "cap": "Thầy Quốc", "desc": "" },
+      { "src": "assets/teachers/11_thay_nam_quoc/wipe_2.jpg", "cap": "Thầy Quốc cùng các thầy cô", "desc": "" },
+      { "src": "assets/teachers/11_thay_nam_quoc/wipe_3.jpg", "cap": "Thầy Quốc x2", "desc": "" },
+      { "src": "assets/teachers/11_thay_nam_quoc/wipe_4.jpg", "cap": "Thầy Quốc", "desc": "" },
+      { "src": "assets/teachers/11_thay_nam_quoc/wipe_5.jpg", "cap": "Thầy Quốc và cô Liên", "desc": "" }
+    ]
   },
   "co-huong": {
     "name": "Cô Hương", "fullName": "Lê Thị Kim Hương", "subject": "Tiếng Anh", "grade": [12],
-    "avatar": "assets/logo.png", "role": "Giáo viên Tiếng Anh", "quote": "", "cover": "", "cutout": "", "audio": "",
-    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, "bigQuote": "", "bullets": [], "storyA": [], "gallery": []
+    "avatar": "assets/logo.png", "role": "Giáo viên Tiếng Anh", 
+    "quote": "“Con cho cô biết, từ này nghĩa là gì”", 
+    "cover": "assets/teachers/12_co_huong/anh_hero.png", "cutout": "", "audio": "", "audioFileName": "", "audioTrackName": "",
+    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, 
+    "bigQuote": "“Chúng em thật sự vui và tự hào vì được trở thành học sinh của cô.”", 
+    "bullets": ["Áp lực nhưng mà tiến bộ", "Trùm từ vựng khó"],
+    "storyA": [
+      "Cô Lê Thị Kim Hương – giáo viên dạy Tiếng Anh của chúng em năm lớp 12 – là một cô giáo vừa nhiệt huyết vừa có chuyên môn rất vững vàng. Có lẽ vì là giáo viên dạy chuyên nên đối với chúng em, cô luôn mang một sự đặc biệt riêng. Cô khiến chúng em hiểu rằng đã là thế mạnh thì phải đầu tư nghiêm túc và hết mình. Mỗi ngày đến lớp đều có bài tập mới, từ vựng mới. Cuốn vở Tiếng Anh của chúng em gần như được sử dụng liên tục, từng trang đều kín chữ. Nhìn lại mới thấy một năm qua mình đã học được nhiều đến thế. Chúng em biết cô đặt rất nhiều kì vọng vào lớp. Để tìm kiếm những dạng bài phù hợp với trình độ và mục tiêu của chúng em, cô chắc chắn đã dành không ít thời gian và công sức. Điều đó khiến chúng em càng trân trọng hơn những gì mình đang được học."
+    ],
+    "storyB": [
+      "Câu hỏi quen thuộc của cô mà cả lớp đều nhớ là: “Con cho cô biết, từ này nghĩa gì?”. Cô là giáo viên duy nhất trong năm lớp 12 yêu cầu chúng em trả bài miệng thường xuyên. Ban đầu có thể hơi áp lực, nhưng nhờ vậy chúng em siêng học hơn, ghi nhớ được nhiều từ vựng khó mà rất hữu ích. Mỗi tiết học của cô đều đầy kiến thức, không có khoảng trống cho sự lơ đãng. Cô hiền, nhưng cũng rất nghiêm túc. Trong giờ kiểm tra của cô, chúng em gần như không dám có ý nghĩ gian lận. Chính sự nghiêm túc đó giúp chúng em rèn được tính kỉ luật và sự trung thực – những điều quan trọng không chỉ trong học tập mà cả sau này."
+    ],
+    "storyC": [], "storyD": [], "storyE": [],
+    "gallery": [
+      { "src": "assets/teachers/12_co_huong/wipe_1.jpg", "cap": "Ngày hội văn hóa", "desc": "" },
+      { "src": "assets/teachers/12_co_huong/wipe_2.jpg", "cap": "Kỷ niệm 20.11", "desc": "" }
+    ]
   },
 
   "___05_TO_VAT_LY_HOA_HOC___": "=========================================================",
 
   "thay-tai": {
     "name": "Thầy Tài", "fullName": "Hồ Tấn Tài", "subject": "Vật Lý", "grade": [10],
-    "avatar": "assets/logo.png", "role": "Giáo viên Vật Lý", "quote": "", "cover": "", "cutout": "", "audio": "",
-    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, "bigQuote": "", "bullets": [], "storyA": [], "gallery": []
+    "avatar": "assets/logo.png", "role": "Giáo viên Vật Lý", 
+    "quote": "“Lớp này học hay ha, đề kêu tính số vòng trên phút mà đi tính chu kì.”", 
+    "cover": "assets/teachers/10_thay_tai/anh_hero.JPG", "cutout": "", "audio": "assets/teachers/10_thay_tai/voice.mp3", "audioFileName": "REC_01062024.wav", "audioTrackName": "",
+    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, 
+    "bigQuote": "Chúng em thật sự trân trọng sự tận tụy của thầy và chúc thầy luôn dồi dào sức khỏe để tiếp tục đồng hành cùng học sinh.", 
+    "bullets": ["Nghiêm túc tùy lúc", "Trai đẹp dạy Lý"], 
+    "storyA": ["Thầy Tài là giáo viên Vật lí lớp 10 của chúng em, thầy luôn mang đến những giờ học nghiêm túc nhưng đầy tâm huyết. Thầy giảng bài cẩn thận, giúp chúng em hiểu rõ từng kiến thức tưởng chừng rất khó. Không chỉ dạy công thức, thầy còn rèn cho chúng em tính kiên trì và tư duy logic."], 
+    "storyB": [], "storyC": [], "storyD": [], "storyE": [],
+    "gallery": [
+      {"src": "assets/teachers/10_thay_tai/wipe_1.JPG", "cap": "Kỷ niệm 20.11", "desc": "" },
+      {"src": "assets/teachers/10_thay_tai/wipe_2.PNG", "cap": "Thầy Tài", "desc": "" },
+      {"src": "assets/teachers/10_thay_tai/wipe_3.JPG", "cap": "Cũng là thầy Tài", "desc": "" },
+      {"src": "assets/teachers/10_thay_tai/wipe_4.JPG", "cap": "Cũng là thầy Tài, và thầy Minh", "desc": "" },
+      {"src": "assets/teachers/10_thay_tai/wipe_5.JPG", "cap": "Cũng là thầy Tài x3", "desc": "" }
+    ]
   },
   "co-oanh": {
     "name": "Cô Oanh", "fullName": "Lê Ngọc Như Oanh", "subject": "Vật Lý", "grade": [11],
-    "avatar": "assets/logo.png", "role": "Giáo viên Vật Lý", "quote": "", "cover": "", "cutout": "", "audio": "",
-    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, "bigQuote": "", "bullets": [], "storyA": [], "gallery": []
+    "avatar": "assets/logo.png", "role": "Giáo viên Vật Lý", 
+    "quote": "“Hiểu đúng bản chất, mọi điều phức tạp rồi cũng trở nên đơn giản.”", 
+    "cover": "assets/teachers/11_co_oanh/anh_hero.png", "cutout": "", "audio": "", "audioFileName": "", "audioTrackName": "",
+    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, 
+    "bigQuote": "“Chúng em xin chân thành cảm ơn cô vì sự tận tâm và những điều quý giá cô đã mang đến cho lớp trong suốt thời gian qua.”", 
+    "bullets": ["Mẹ hiền", "Thiếu nữ chuyên Lý", "Vui cười, thân thiện"], 
+    "storyA": ["Cô Oanh là giáo viên Vật Lí của lớp chúng em từ học kỳ II, người đã tiếp nối và đồng hành cùng lớp trong giai đoạn sau của năm học. Ngay từ những buổi đầu, cô đã tạo cho tụi em cảm giác gần gũi và thoải mái. Cô rất xinh, phong cách hiện đại và thân thiện nên lớp nhanh chóng cởi mở hơn, không còn quá e ngại với một môn học vốn được xem là khá “khó nhằn”."], 
+    "storyB": ["Trong giờ học, cô giảng rất kỹ và luôn đi từng bước rõ ràng. Những phần công thức hay dạng bài phức tạp đều được cô tách nhỏ, giải thích cặn kẽ để tụi em hiểu bản chất vấn đề chứ không chỉ học thuộc cách làm. Cô cũng thường xuyên liên hệ kiến thức với những hiện tượng thực tế xung quanh, giúp bài học trở nên sinh động và dễ hình dung hơn. Nhờ vậy, tụi em không còn cảm thấy Lí quá khô khan mà bắt đầu thấy nó gần gũi hơn với cuộc sống."], 
+    "storyC": ["Nhờ sự tận tình và kiên nhẫn của cô, tụi em tự tin hơn khi làm bài và bớt áp lực mỗi khi đến tiết Lí. Khoảng thời gian được cô dạy tuy không trọn vẹn cả năm nhưng đủ để lại nhiều ấn tượng đẹp trong lòng chúng em."], 
+    "storyD": [], "storyE": [],
+    "gallery": [
+      { "src": "assets/teachers/11_co_oanh/wipe_3.JPG", "cap": "Cô Oanh", "desc": "" },
+      { "src": "assets/teachers/11_co_oanh/wipe_4.JPG", "cap": "Cô Oanh nhận quà từ học sinh", "desc": "" }
+    ]
   },
   "thay-vo-quoc": {
     "name": "Thầy Quốc", "fullName": "Trần Võ Nam Quốc", "subject": "Vật Lý", "grade": [11],
-    "avatar": "assets/logo.png", "role": "Giáo viên Vật Lý", "quote": "", "cover": "", "cutout": "", "audio": "",
-    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, "bigQuote": "", "bullets": [], "storyA": [], "gallery": []
+    "avatar": "assets/logo.png", "role": "Giáo viên Vật Lý", 
+    "quote": "“Học bài nè mấy nhỏ!”", 
+    "cover": "assets/teachers/11_thay_vo_quoc/anh_hero.png", "cutout": "", "audio": "assets/teachers/11_thay_vo_quoc/voice.mp3", "audioFileName": "REC_36368386", "audioTrackName": "",
+    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, 
+    "bigQuote": "“Chúng em xin chân thành cảm ơn thầy vì tất cả sự tận tình và kiên nhẫn thầy đã dành cho lớp. Chúc thầy luôn nhiều sức khỏe, giữ mãi sự nhiệt huyết và năng lượng tích cực để tiếp tục truyền cảm hứng cho thật nhiều thế hệ học sinh sau này.”", 
+    "bullets": ["Nhiệt huyết", "Tận tâm", "Dễ thương"], 
+    "storyA": ["Thầy Quốc dạy Lý của em giảng bài siêu dễ hiểu, những kiến thức khó cũng trở nên đơn giản hơn qua cách thầy phân tích. Thầy rất hài hước nên mỗi tiết học đều tràn ngập tiếng cười. Trong mỗi bài giảng, thầy luôn khéo léo thêm vào những câu nói vui hoặc ví dụ thú vị để không khí lớp học trở nên nhộn nhịp hơn. Nhờ vậy mà tụi em vừa học được kiến thức vừa cảm thấy thoải mái, không bị áp lực."], 
+    "storyB": ["Không chỉ dạy học tận tâm, thầy còn tham gia công tác Đoàn trường nên lúc nào cũng thấy thầy tất bật với nhiều hoạt động. Nhìn thầy có vẻ nghiêm khắc vậy thôi, nhưng lâu lâu thầy cũng “xì tin” và dễ thương lắm. Nhất là đợt gala Đà Lạt 2025, thầy nhiệt tình và sôi nổi hết mình cùng tụi em, làm ai cũng bất ngờ. Dù thầy chỉ dạy lớp đến khoảng hết học kỳ I, khoảng thời gian đó vẫn đủ để tụi em nhớ mãi hình ảnh một người thầy vừa nghiêm túc, trách nhiệm, vừa gần gũi và đầy năng lượng."], 
+    "storyC": [], "storyD": [], "storyE": [],
+    "gallery": [
+      { "src": "assets/teachers/11_thay_vo_quoc/wipe_1.JPG", "cap": "Thầy Quốc", "desc": "" },
+      { "src": "assets/teachers/11_thay_vo_quoc/wipe_2.jpg", "cap": "Thầy Quốc x2", "desc": "" }
+    ]
   },
   "co-tuyen": {
     "name": "Cô Tuyên", "fullName": "Nguyễn Thị Kim Tuyên", "subject": "Vật Lý", "grade": [12],
-    "avatar": "assets/logo.png", "role": "Giáo viên Vật Lý", "quote": "", "cover": "", "cutout": "", "audio": "",
-    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, "bigQuote": "", "bullets": [], "storyA": [], "gallery": []
+    "avatar": "assets/logo.png", "role": "Giáo viên Vật Lý", 
+    "quote": "“Sao vô cái lớp này thời gian trôi qua nhanh thế?”", 
+    "cover": "assets/teachers/12_co_tuyen/anh_hero.png", "cutout": "", "audio": "", "audioFileName": "", "audioTrackName": "",
+    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, 
+    "bigQuote": "“Chúng em cảm ơn cô vì tất cả những kiến thức, sự tận tâm và cả sự nghiêm khắc mà cô đã dành cho lớp.”", 
+    "bullets": ["Sang – xịn – mịn", "Vô lớp là hết lơ là"],
+    "storyA": [
+      "Cô Nguyễn Thị Kim Tuyên – giáo viên dạy Vật lí của chúng em năm lớp 12 – để lại trong chúng em rất nhiều ấn tượng đặc biệt. Ấn tượng đầu tiên có lẽ là ngoại hình của cô. Nhìn cô lúc nào cũng sang trọng và chỉn chu. Nhưng sau những ấn tượng ban đầu ấy là một giáo viên có chuyên môn vững vàng và sự đầu tư nghiêm túc cho từng bài dạy. Cô giảng cho chúng em đầy đủ từ chương trình chính khóa đến các chuyên đề nâng cao, không để sót kiến thức quan trọng nào. Cô thường “bày trò” để chúng em thử sức mình, tạo thêm động lực trong giờ học. Những lần bốc thăm may mắn hay những câu hỏi bất ngờ khiến tiết học Vật lí không còn khô khan như chúng em từng nghĩ."
+    ],
+    "storyB": [
+      "Câu nói chúng em nhớ nhất ở cô có lẽ là: “Sao vô cái lớp này thời gian trôi qua nhanh thế.” Có lẽ vì cả cô và trò đều quá tập trung vào bài học nên thời gian mới trôi nhanh như vậy. Đôi lúc chúng em cũng khiến cô buồn vì còn làm việc riêng trong giờ. Giờ đây, khi năm học sắp khép lại, chúng em lại thấy tiếc và tự nhủ giá như mình đã nghiêm túc hơn để không bỏ lỡ những điều cô giảng."
+    ],
+    "storyC": [], "storyD": [], "storyE": [],
+    "gallery": [
+      { "src": "assets/teachers/12_co_tuyen/wipe_3.jpg", "cap": "Kỷ niệm 20.11", "desc": "" },
+      { "src": "assets/teachers/12_co_tuyen/wipe_2.jpg", "cap": "Cô Tuyên", "desc": "" },
+      { "src": "assets/teachers/12_co_tuyen/wipe_4.jpg", "cap": "Kỷ niệm 20.11", "desc": "" },
+      { "src": "assets/teachers/12_co_tuyen/wipe_1.jpg", "cap": "Cô Tuyên x2", "desc": "" },
+      { "src": "assets/teachers/12_co_tuyen/wipe_5.jpg", "cap": "Kỷ niệm 20.11", "desc": "" }
+    ]
   },
   "thay-danh": {
     "name": "Thầy Danh", "fullName": "Nguyễn Thành Danh", "subject": "Hóa Học", "grade": [10, 11],
-    "avatar": "assets/logo.png", "role": "Giáo viên Hóa Học", "quote": "", "cover": "", "cutout": "", "audio": "",
-    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, "bigQuote": "", "bullets": [], "storyA": [], "gallery": []
+    "avatar": "assets/logo.png", "role": "Giáo viên Hóa Học", 
+    "quote": "“Câu nào hỏng hiểu nhắn thầy, về thầy chỉ cho nha!”", 
+    "cover": "assets/teachers/10_11_thay_danh/anh_hero.jpg", "cutout": "", "audio": "", "audioFileName": "", "audioTrackName": "",
+    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, 
+    "bigQuote": "Những bài học ấy sẽ luôn là hành trang quý giá trên chặng đường phía trước.", 
+    "bullets": ["Chậm mà chắc","Tận tình"], 
+    "storyA": ["Thầy Danh là giáo viên môn Hóa học đã đồng hành cùng lớp trong suốt hai năm 10 và 11, thầy là người thầy tận tâm và đầy trách nhiệm. Qua từng bài giảng, thầy không chỉ giúp chúng em hiểu rõ những công thức và phản ứng, mà còn rèn cho chúng em sự cẩn thận và tư duy logic. Hai năm học với thầy là hai năm đầy nỗ lực và trưởng thành. Chúng em thật sự biết ơn vì sự kiên nhẫn và tâm huyết mà thầy đã dành cho lớp."], 
+    "storyB": [], "storyC": [], "storyD": [], "storyE": [],
+    "gallery": [
+      { "src": "assets/teachers/10_11_thay_danh/wipe_1.jpg", "cap": "Thầy Danh", "desc": "" },
+      { "src": "assets/teachers/10_11_thay_danh/wipe_2.jpg", "cap": "Thầy Danh x2", "desc": "" },
+      { "src": "assets/teachers/10_11_thay_danh/wipe_3.jpg", "cap": "Thầy Danh x3", "desc": "" },
+      { "src": "assets/teachers/10_11_thay_danh/wipe_4.jpg", "cap": "Thầy Danh x4", "desc": "" },
+      { "src": "assets/teachers/10_11_thay_danh/wipe_5.jpg", "cap": "Thầy Danh x5", "desc": "" }
+    ]
   },
   "co-ha": {
     "name": "Cô Hà", "fullName": "Lê Thu Hà", "subject": "Hóa Học", "grade": [12],
-    "avatar": "assets/logo.png", "role": "Giáo viên Hóa Học", "quote": "", "cover": "", "cutout": "", "audio": "",
-    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, "bigQuote": "", "bullets": [], "storyA": [], "gallery": []
+    "avatar": "assets/logo.png", "role": "Giáo viên Hóa Học", 
+    "quote": "“Nghiêm khắc một chút, vững kiến thức thật nhiều.”", 
+    "cover": "assets/teachers/12_co_ha/anh_hero.png", "cutout": "", "audio": "", "audioFileName": "", "audioTrackName": "",
+    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, 
+    "bigQuote": "“Chúng em cảm ơn cô vì sự nghiêm túc, tận tâm và tất cả những kiến thức cô đã dành cho lớp trong suốt năm học này.”", 
+    "bullets": ["Nhắc nộp tập mỗi ngày", "Học nhanh để ôn nhiều"],
+    "storyA": [
+      "Cô Lê Thu Hà – giáo viên dạy Hóa của chúng em năm lớp 12 – là một cô giáo rất nghiêm túc và đầy nhiệt huyết. Dạy lớp ghép chắc hẳn cũng mang lại cho cô không ít khó khăn, nhưng điều đó chưa bao giờ làm giảm đi chất lượng hay hiệu suất của mỗi tiết học. "
+    ],
+    "storyB": [
+      "Cô luôn giảng bài một cách tập trung và trách nhiệm, truyền đạt một lượng kiến thức rất lớn trong từng buổi học. Đôi lúc cô dạy hơi nhanh một chút, nhưng nhờ vậy chúng em có thêm thời gian để ôn tập trước các bài kiểm tra. Nhìn lại mới thấy cách dạy của cô giúp chúng em chủ động hơn và có sự chuẩn bị tốt hơn cho những kì đánh giá quan trọng. Cô cũng luôn nhắc chúng em nộp tập đầy đủ. Có lẽ đó không chỉ là yêu cầu về điểm số, mà còn là cách cô tạo thêm cơ hội để chúng em cải thiện kết quả của mình sau những bài kiểm tra chưa tốt."
+    ],
+    "storyC": [], "storyD": [], "storyE": [],
+    "gallery": [
+      { "src": "assets/teachers/12_co_ha/wipe_1.jpg", "cap": "Kỷ niệm 20.11", "desc": "" },
+      { "src": "assets/teachers/12_co_ha/wipe_2.jpg", "cap": "Kỷ niệm 20.11", "desc": "" }
+    ]
   },
 
   "___06_TO_DIA_LY_LICH_SU___": "=========================================================",
 
   "thay-dung": {
-    "name": "Thầy Dũng", "fullName": "Thầy Dũng", "subject": "Địa Lý", "grade": [10],
-    "avatar": "assets/logo.png", "role": "Giáo viên Địa Lý", "quote": "", "cover": "", "cutout": "", "audio": "",
-    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, "bigQuote": "", "bullets": [], "storyA": [], "gallery": []
+    "name": "Thầy Dũng", "fullName": "Lê Quốc Dũng", "subject": "Địa Lý", "grade": [10],
+    "avatar": "assets/logo.png", "role": "Giáo viên Địa Lý", 
+    "quote": "“Nghề giáo là nghề cao quý nhất trong các nghề cao quý.”", "cover": "assets/teachers/10_thay_dung/anh_hero.jpg", "cutout": "", "audio": "assets/teachers/10_thay_dung/voice.mp3", "audioFileName": "REC_23082024.wav", "audioTrackName": "",
+    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {},
+    "bigQuote": "“Cảm ơn thầy vì đã đồng hành cùng lớp bằng sự nhiệt tình và nguồn năng lượng tích cực đáng quý ấy!”", 
+    "bullets": ["Thiên thần giỏi Địa", "Người truyền cảm hứng"], 
+    "storyA": ["Thầy Dũng là giáo viên môn Địa lí và Trải nghiệm hướng nghiệp, thầy luôn mang đến cho lớp những tiết học sinh động và đầy tiếng cười. Với sự vui tính và gần gũi, thầy khiến những bài học về bản đồ, vùng đất hay định hướng tương lai trở nên thú vị hơn bao giờ hết. Không chỉ dạy kiến thức, thầy còn giúp chúng em hiểu thêm về chính mình và những con đường phía trước."], 
+    "storyB": [], "storyC": [], "storyD": [], "storyE": [],
+    "gallery": [
+      {"src": "assets/teachers/10_thay_dung/wipe_1.jpg", "cap": "Ngày của Thầy", "desc": ""}
+    ]
   },
   "thay-tuan": {
     "name": "Thầy Tuấn", "fullName": "Lê Anh Tuấn", "subject": "Địa Lý", "grade": [12],
-    "avatar": "assets/logo.png", "role": "Giáo viên Địa Lý", "quote": "", "cover": "", "cutout": "", "audio": "",
-    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, "bigQuote": "", "bullets": [], "storyA": [], "gallery": []
+    "avatar": "assets/logo.png", "role": "Giáo viên Địa Lý", 
+    "quote": "", "cover": "", "cutout": "", "audio": "", "audioFileName": "", "audioTrackName": "",
+    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, 
+    "bigQuote": "", 
+    "bullets": [], 
+    "storyA": [], "storyB": [], "storyC": [], "storyD": [], "storyE": [],
+    "gallery": []
   },
   "co-dao": {
     "name": "Cô Đào", "fullName": "Bùi Thị Đào", "subject": "Lịch Sử", "grade": [10, 11],
-    "avatar": "assets/logo.png", "role": "Giáo viên Lịch Sử", "quote": "", "cover": "", "cutout": "", "audio": "",
-    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, "bigQuote": "", "bullets": [], "storyA": [], "gallery": []
+    "avatar": "assets/logo.png", "role": "Giáo viên Lịch Sử", 
+    "quote": "“Hôm nay cô mới tìm được video Lịch Sử hay lắm, cả lớp coi chung nha.”", 
+    "cover": "assets/teachers/10_11_co_dao/anh_hero.png", "cutout": "", "audio": "assets/teachers/10_11_co_dao/voice.mp3", "audioFileName": "REC_25122024.wav", "audioTrackName": "",
+    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, 
+    "bigQuote": "“Kính chúc cô thật nhiều sức khỏe, luôn giữ được ngọn lửa đam mê với nghề và tiếp tục truyền cảm hứng cho thật nhiều thế hệ học trò sau này.”", 
+    "bullets": ["Giảng bài siêu cuốn","Nghiêm túc tùy lúc"], 
+    "storyA": ["Cô Bùi Thị Đào dạy Sử của em có cách giảng bài rất cuốn hút và đầy cảm xúc. Trong mỗi tiết học, cô thường kết hợp thêm hình ảnh và những đoạn video tư liệu xưa, giúp chúng em như được sống lại trong từng giai đoạn lịch sử. Nhờ vậy, những sự kiện và nhân vật không còn khô khan mà trở nên chân thật, gần gũi và dễ nhớ hơn. Cô kể chuyện lịch sử bằng giọng điệu truyền cảm, khiến cả lớp luôn chăm chú lắng nghe từ đầu đến cuối. Với em, cô đã thổi hồn vào từng bài học và giúp chúng em cảm nhận lịch sử theo một cách sinh động và ý nghĩa hơn rất nhiều."], 
+    "storyB": [], "storyC": [], "storyD": [], "storyE": [],
+    "gallery": [
+      { "src": "assets/teachers/10_11_co_dao/wipe_1.jpg", "cap": "Cô Đào", "desc": "" },
+      { "src": "assets/teachers/10_11_co_dao/wipe_2.jpg", "cap": "Cô Đào x2", "desc": "" }
+    ]
   },
   "co-hanh": {
     "name": "Cô Hạnh", "fullName": "Huỳnh Hồng Hạnh", "subject": "Lịch Sử", "grade": [12],
-    "avatar": "assets/logo.png", "role": "Giáo viên Lịch Sử", "quote": "", "cover": "", "cutout": "", "audio": "",
-    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, "bigQuote": "", "bullets": [], "storyA": [], "gallery": []
+    "avatar": "assets/logo.png", "role": "Giáo viên Lịch Sử", 
+    "quote": "“Nhẹ nhàng thôi, nhưng đủ để Lịch sử in sâu.”", 
+    "cover": "assets/teachers/12_co_hanh/anh_hero.png", "cutout": "", "audio": "assets/teachers/12_co_hanh/voice.mp3", "audioFileName": "REC_12022026.wav", "audioTrackName": "",
+    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, 
+    "bigQuote": "“Chúng em thương cô rất nhiều. Cảm ơn cô vì tất cả sự tận tâm và dịu dàng mà cô đã dành cho 12A2.”", 
+    "bullets": ["Giọng nói chữa lành", "Thiên thần môn Sử"], 
+    "storyA": [
+      "Cô Huỳnh Hồng Hạnh – giáo viên dạy Lịch sử của chúng em năm lớp 12 – là một người mà chúng em thật sự biết ơn khi có cơ hội được học. Ấn tượng đầu tiên của chúng em về cô có lẽ là giọng nói. Một chất giọng rất nhẹ nhàng, đủ để khiến người ta cảm nhận ngay sự hiền hậu và dễ chịu. Nhờ vậy mà mỗi tiết Sử không hề căng thẳng, mà ngược lại còn tạo cảm giác thoải mái và gần gũi."
+    ], 
+    "storyB": [
+      "Cô là một giáo viên có chuyên môn vững và rất tận tâm. Mỗi tiết học đều chứa đựng những kiến thức quan trọng, được truyền đạt đầy đủ và rõ ràng. Sau mỗi buổi học, bảng đen lúc nào cũng chi chít chữ – đó là minh chứng cho sự đầu tư và nghiêm túc của cô trong từng bài giảng. Dù đôi lúc có vài bạn chưa thật sự tập trung, cô vẫn không vì thế mà lơ là, vẫn kiên nhẫn truyền đạt trọn vẹn nội dung cho cả lớp."
+    ],
+    "storyC": [
+      "Có những lúc chúng em cảm thấy cô như một “thiên thần” vậy – xuất hiện và khiến môn Sử không còn là nỗi lo với 12A2 nữa. Cô luôn nhẹ nhàng, dễ thương và sẵn sàng đáp ứng những mong muốn chính đáng của lớp, giúp chúng em cảm thấy thoải mái khi học và tự tin hơn mỗi khi kiểm tra"
+    ], 
+    "storyD": [], "storyE": [],
+    "gallery": [
+      { "src": "assets/teachers/12_co_hanh/wipe_1.jpg", "cap": "Kỷ niệm 20.11", "desc": "" },
+      { "src": "assets/teachers/12_co_hanh/wipe_2.jpg", "cap": "Cô Hạnh", "desc": "" },
+      { "src": "assets/teachers/12_co_hanh/wipe_3.jpg", "cap": "Cô Hạnh x2", "desc": "" },
+      { "src": "assets/teachers/12_co_hanh/wipe_4.jpg", "cap": "Cô Hạnh x3", "desc": "" },
+      { "src": "assets/teachers/12_co_hanh/wipe_5.jpg", "cap": "Cô Hạnh x4", "desc": "" }
+    ]
   },
 
   "___07_TO_TIN_CONG_NGHE___": "=========================================================",
@@ -177,9 +450,9 @@
     "name": "Thầy Suyền", "fullName": "Tôn Thất Suyền", "subject": "Tin Học", "grade": [10, 11, 12],
     "avatar": "assets/teachers/10_11_12_thay_suyen/avatar.jpg", "role": "Giáo viên Tin Học",
     "quote": "“Tụi em hiểu chưa, thầy nói lại lần nữa nè nghe kĩ nha!”",
-    "cover": "assets/teachers/10_11_12_thay_suyen/anh_hero.png", "cutout": "assets/teachers/10_11_12_thay_suyen_cutout.png",
-    "audio": "assets/teachers/10_11_12_thay_suyen/voice.mp3", "audioFileName": "REC_31912209.wav",
-    "fig1": { "src": "assets/intro/intro-memories.mp4", "cap": "Một chiều mưa 12A2..." },
+    "cover": "assets/teachers/10_11_12_thay_suyen/anh_hero.jpg", "cutout": "assets/teachers/10_11_12_thay_suyen_cutout.png",
+    "audio": "assets/teachers/10_11_12_thay_suyen/voice.mp3", "audioFileName": "REC_31912209.wav", "audioTrackName": "",
+    "fig1": {},
     "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {},
     "bigQuote": "“Chúc thầy luôn mạnh khỏe, hạnh phúc và tiếp tục giữ mãi ngọn lửa đam mê với nghề.”",
     "bullets": ["Thương học sinh", "Tâm lý hết nấc", "Đẹp trai s1tg!"],
@@ -194,52 +467,128 @@
     ],
     "storyD": [], "storyE": [],
     "gallery": [
-      { "src": "assets/teachers/10_11_12_thay_suyen/wipe_1.jpg", "cap": "Hội trại", "desc": "Kỷ niệm ngày cắm trại." },
-      { "src": "assets/teachers/10_11_12_thay_suyen/wipe_2.jpg", "cap": "Họp PH", "desc": "" },
-      { "src": "assets/teachers/10_11_12_thay_suyen/wipe_3.jpg", "cap": "Chụp lén", "desc": "" },
-      { "src": "assets/teachers/10_11_12_thay_suyen/wipe_4.jpg", "cap": "Tổng kết", "desc": "" },
-      { "src": "assets/teachers/10_11_12_thay_suyen/wipe_5.jpg", "cap": "Kỷ yếu", "desc": "" }
+      { "src": "assets/teachers/10_11_12_thay_suyen/wipe_1.jpg", "cap": "Thầy Suyền tại chuyên Hùng Vương", "desc": "Kỷ niệm ngày cắm trại." },
+      { "src": "assets/teachers/10_11_12_thay_suyen/wipe_2.jpg", "cap": "Tân thạc sĩ", "desc": "Một tấm ảnh của thầy khi tốt nghiệp thạc sĩ, minh chứng cho sự chăm chỉ, không ngừng nỗ lực trong tiếp thu kiến thức. Bằng những gì mà mình có được, thầy đã tiếp lửa thêm cho lứa học trò A2K28 tiếp tục vững bước trên con đường chinh phục tri thức." },
+      { "src": "assets/teachers/10_11_12_thay_suyen/wipe_3.jpg", "cap": "Chuyến đi của tuổi trẻ", "desc": "" },
+      { "src": "assets/teachers/10_11_12_thay_suyen/wipe_4.jpg", "cap": "Thầy và gia đình nhỏ", "desc": "Ngày Tết được cùng quây quần bên gia đình nhỏ là một điều không còn gì hơn <33." },
+      { "src": "assets/teachers/10_11_12_thay_suyen/wipe_5.jpg", "cap": "Thầy và gia đình nhỏ", "desc": "" }
     ]
   },
   "thay-thai": {
     "name": "Thầy Thái", "fullName": "Đinh Quốc Thái", "subject": "Công Nghệ", "grade": [10],
-    "avatar": "assets/logo.png", "role": "Giáo viên Công Nghệ", "quote": "", "cover": "", "cutout": "", "audio": "",
-    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, "bigQuote": "", "bullets": [], "storyA": [], "gallery": []
+    "avatar": "assets/logo.png", "role": "Giáo viên Công Nghệ", 
+    "quote": "“Mới sáng sớm, thầy có một bài tập khởi động, cả lớp khởi động với thầy nhaaa!”", 
+    "cover": "assets/teachers/10_thay_thai/anh_hero.jpg", "cutout": "", "audio": "", "audioFileName": "", "audioTrackName": "",
+    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, 
+    "bigQuote": "Chúng em biết ơn thầy và chúc thầy luôn mạnh khỏe để tiếp tục truyền đạt những kiến thức hữu ích cho học sinh.", 
+    "bullets": [], 
+    "storyA": ["Thầy Thái là giáo viên Công nghệ lớp 10 của chúng em, thầy luôn mang đến những tiết học thực tế và bổ ích. Thầy giảng bài rõ ràng, kết hợp lý thuyết với ví dụ gần gũi nên chúng em dễ hiểu và hứng thú hơn với môn học. Sự nhiệt tình và trách nhiệm của thầy khiến chúng em thêm trân trọng từng giờ học."], 
+    "storyB": [], "storyC": [], "storyD": [], "storyE": [],
+    "gallery": [
+      { "src": "assets/teachers/10_thay_thai/wipe_1.jpg", "cap": "Thầy Thái", "desc": "" },
+      { "src": "assets/teachers/10_thay_thai/wipe_2.jpg", "cap": "Thầy Thái x2", "desc": "" },
+      { "src": "assets/teachers/10_thay_thai/wipe_3.jpg", "cap": "Thầy Thái x3", "desc": "" },
+      { "src": "assets/teachers/10_thay_thai/wipe_4.jpg", "cap": "Thầy Thái x4", "desc": "" },
+      { "src": "assets/teachers/10_thay_thai/wipe_5.jpg", "cap": "Thầy Thái x5", "desc": "" }
+    ]
   },
   "thay-cuong": {
     "name": "Thầy Cường", "fullName": "Võ Văn Cường", "subject": "Công Nghệ", "grade": [11, 12],
-    "avatar": "assets/logo.png", "role": "Giáo viên Công Nghệ", "quote": "", "cover": "", "cutout": "", "audio": "",
-    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, "bigQuote": "", "bullets": [], "storyA": [], "gallery": []
+    "avatar": "assets/logo.png", "role": "Giáo viên Công Nghệ", 
+    "quote": "“Trên thế giới này có 3 loại người: Người giàu, người nghèo, và kĩ sư cơ khí.”", 
+    "cover": "assets/teachers/11_12_thay_cuong/anh_hero.png", "cutout": "", "audio": "", "audioFileName": "", "audioTrackName": "",
+    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, 
+    "bigQuote": "“Chúng em xin chân thành cảm ơn thầy vì tất cả sự nhiệt huyết đã dành cho lớp, và chúc thầy luôn mạnh khỏe, giữ mãi niềm đam mê để tiếp tục truyền lửa cho nhiều thế hệ học sinh sau này.”", 
+    "bullets": [], 
+    "storyA": ["Thầy Cường dạy Công nghệ rất nhiệt tình và tâm huyết với từng bài giảng. Thầy không chỉ truyền đạt kiến thức lý thuyết mà còn thường xuyên tổ chức cho lớp thực hành với các dụng cụ và mô hình thực tế. Nhờ được trực tiếp quan sát và thao tác, chúng em hiểu bài nhanh hơn và nhớ kiến thức lâu hơn thay vì chỉ học qua sách vở. Mỗi tiết học của thầy vì thế luôn sinh động và khiến tụi em cảm thấy hứng thú."], 
+    "storyB": ["Trong giờ thực hành, thầy luôn hướng dẫn từng bước rất cẩn thận. Bạn nào chưa làm được, thầy đều kiên nhẫn chỉ lại đến khi hiểu mới thôi. Sự tận tâm và trách nhiệm của thầy khiến tụi em vừa nể vừa quý. Với chúng em, những tiết Công nghệ không chỉ bổ ích mà còn là khoảng thời gian học tập đầy trải nghiệm đáng nhớ."], 
+    "storyC": [], "storyD": [], "storyE": [],
+    "gallery": [
+      { "src": "assets/teachers/11_12_thay_cuong/wipe_1.jpg", "cap": "Kỷ niệm 20.11", "desc": "" },
+      { "src": "assets/teachers/11_12_thay_cuong/wipe_2.jpg", "cap": "Kỷ niệm 20.11", "desc": "" }
+    ]
   },
 
   "___08_TO_THE_DUC_QPAN___": "=========================================================",
 
   "thay-khang": {
     "name": "Thầy Khang", "fullName": "Nguyễn Duy Khang", "subject": "Thể Dục", "grade": [10, 11, 12],
-    "avatar": "assets/logo.png", "role": "Giáo viên Thể Dục", "quote": "", "cover": "", "cutout": "", "audio": "",
-    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, "bigQuote": "", "bullets": [], "storyA": [], "gallery": []
+    "avatar": "assets/logo.png", "role": "Giáo viên Thể Dục", 
+    "quote": "“Muốn uống gì ra quán gọi đi, chút về thầy thanh toán cho!”", 
+    "cover": "assets/teachers/10_11_12_thay_khang/anh_hero.png", "cutout": "", "audio": "assets/teachers/10_11_12_thay_khang/voice.mp3", "audioFileName": "REC_25022026", "audioTrackName": "",
+    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, 
+    "bigQuote": "“Chúng em thật sự rất biết ơn và cảm ơn thầy vì đã là một người thầy tuyệt vời trong suốt 3 năm thanh xuân của 12A2.”", 
+    "bullets": ["“Lấy vợt ra tập đi!”", "Người cha thứ hai"],
+    "storyA": [
+      "Thầy Nguyễn Duy Khang – giáo viên dạy Giáo dục Thể chất của 12A2 suốt cả 3 năm cấp 3 – là một người mà chúng em thật sự rất biết ơn. Chúng em luôn cảm thấy may mắn vì được nhà trường xếp thầy đồng hành cùng lớp trong suốt chặng đường này. Có những lúc chúng em còn đùa rằng thầy giống như “người cha thứ hai”, vì học với thầy lúc nào cũng thoải mái và gần gũi. Thầy vui vẻ, hay cười đùa cùng chúng em, khiến mỗi tiết học đều trở nên nhẹ nhàng và đầy tiếng cười."
+    ],
+    "storyB": [
+      "Nhưng bên cạnh sự thoải mái đó, thầy vẫn rất nghiêm túc về chuyên môn. Những tiết học cầu lông luôn được thầy hướng dẫn kĩ càng. Thầy sẵn sàng chỉnh từng tư thế cho mỗi bạn, để chúng em tập đúng và tiến bộ hơn. Dù đôi lúc 12A2 có hơi “lười” một chút, mỗi lần thầy nhắc: “Lấy vợt ra tập đi”, chúng em vẫn chậm chạp, nhưng thầy chưa bao giờ trách phạt nặng lời."
+    ],
+    "storyC": [
+      "Có lẽ lớp chúng em cũng có một vị trí đặc biệt nào đó trong lòng thầy. Những lần được thầy bao nước, hay được thầy bỏ qua những lỗi nhỏ trong giờ học, đều khiến chúng em vui rất lâu. Một trong những điều khiến chúng em háo hức mỗi năm học mới chính là bước vào nhà đa năng và được thầy đứng lớp. Ba năm trôi qua nhanh thật, và chúng em biết mình sẽ rất nhớ những tiết Thể chất đầy tiếng cười ấy."
+    ], 
+    "storyD": [], "storyE": [],
+    "gallery": [
+      { "src": "assets/teachers/10_11_12_thay_khang/wipe_1.jpg", "cap": "Thầy Khang", "desc": "" },
+      { "src": "assets/teachers/10_11_12_thay_khang/wipe_2.jpg", "cap": "Thầy Khang x2", "desc": "" },
+      { "src": "assets/teachers/10_11_12_thay_khang/wipe_3.jpg", "cap": "Kỷ niệm 20.11", "desc": "Nhân dịp ngày Nhà giáo Việt Nam, tập thể A2K28 và thầy quyết định làm một tấm ảnh thật cháy để ghi lại khoảnh khắc đáng nhớ này!" },
+      { "src": "assets/teachers/10_11_12_thay_khang/wipe_4.jpg", "cap": "Thầy Khang x3", "desc": "" },
+      { "src": "assets/teachers/10_11_12_thay_khang/wipe_5.jpg", "cap": "Kỷ niệm 20.11", "desc": "Nhân dịp ngày Nhà giáo Việt Nam, tập thể A2K28 và thầy quyết định làm một tấm ảnh thật cháy để ghi lại khoảnh khắc đáng nhớ này!" }
+    ]
   },
   "co-men": {
-    "name": "Cô Mến", "fullName": "Trần Thị Triều Mến", "subject": "QP - AN", "grade": [10, 11],
-    "avatar": "assets/logo.png", "role": "Giáo viên QP - AN", "quote": "", "cover": "", "cutout": "", "audio": "",
-    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, "bigQuote": "", "bullets": [], "storyA": [], "gallery": []
+    "name": "Cô Mến", "fullName": "Trần Thị Triều Mến", "subject": "Quốc Phòng - An Ninh", "grade": [10, 11],
+    "avatar": "assets/logo.png", "role": "Giáo viên Quốc phòng - An ninh", 
+    "quote": "“Một bước đi - ba bước chạy”", 
+    "cover": "assets/teachers/10_11_co_men/anh_hero.png", "cutout": "", "audio": "assets/teachers/10_11_co_men/voice.mp3", "audioFileName": "REC_31122024.wav", "audioTrackName": "",
+    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, 
+    "bigQuote": "Lúc hướng dẫn tụi em làm động tác quốc phòng, cô siu ngầu luôn ạ hihi.", 
+    "bullets": ["Cô siêu ngầu!!","Nhìn tưởng khó nhưng lại dễ thương không tưởng"], 
+    "storyA": ["Cô Mến là giáo viên môn Quốc phòng đã đồng hành cùng lớp em năm lớp 10 và 11, cô luôn nghiêm túc nhưng rất tận tâm trong từng giờ học. Cô không chỉ dạy chúng em kiến thức mà còn rèn luyện tính kỷ luật và tinh thần trách nhiệm. Nhờ sự hướng dẫn chu đáo của cô, chúng em hiểu hơn về ý nghĩa của sự đoàn kết và lòng yêu nước. Chúng em thật sự biết ơn và chúc cô luôn mạnh khỏe để tiếp tục đồng hành cùng học sinh."], 
+    "storyB": [], "storyC": [], "storyD": [], "storyE": [],
+    "gallery": [
+      { "src": "assets/teachers/10_11_co_men/wipe_1.jpg", "cap": "Cô Mến", "desc": "" }
+    ]
   },
   "thay-son": {
-    "name": "Thầy Sơn", "fullName": "Nguyễn Thanh Sơn", "subject": "QP - AN", "grade": [12],
-    "avatar": "assets/logo.png", "role": "Giáo viên QP - AN", "quote": "", "cover": "", "cutout": "", "audio": "",
-    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, "bigQuote": "", "bullets": [], "storyA": [], "gallery": []
+    "name": "Thầy Sơn", "fullName": "Nguyễn Thanh Sơn", "subject": "Quốc Phòng - An Ninh", "grade": [12],
+    "avatar": "assets/logo.png", "role": "Giáo viên Quốc phòng - An ninh", 
+    "quote": "“Giỏi không? Vỗ tay”", 
+    "cover": "assets/teachers/12_thay_son/anh_hero.png", "cutout": "", "audio": "", "audioFileName": "", "audioTrackName": "",
+    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, 
+    "bigQuote": "“Chúng em thật sự biết ơn vì đã có cơ hội được học và đồng hành cùng thầy trong năm lớp 12 này.”", 
+    "bullets": ["Nghiêm túc nhưng vui tính","Chấm điểm không đùa đâu"],  
+    "storyA": [
+      "Thầy Nguyễn Thanh Sơn – giáo viên dạy Giáo dục Quốc phòng của chúng em năm lớp 12 – là một trong những bất ngờ lớn nhất khi bước vào năm cuối cấp. Trước đó, chúng em đã nghe các anh chị khóa trên kể về thầy: nghiêm túc và chấm điểm khá “gắt”. Điều đó khiến chúng em vừa lo lắng vừa áp lực về môn GDQP trong năm học mới. Nhưng cũng chính vì vậy mà chúng em chú ý hơn trong từng tiết học, thực hành nghiêm túc và cố gắng nhiều hơn. Khi trực tiếp được học, chúng em nhận ra bên cạnh sự nghiêm túc, thầy còn rất vui tính. Tiết học của thầy lúc nào cũng sôi nổi, không khí thoải mái nhưng vẫn giữ được tính kỉ luật cần thiết."
+    ],
+    "storyB": [
+      "Thầy hay nhắc chúng em “khen thầy giỏi”, nhưng thật ra thầy không cần nhắc đâu – vì thầy thật sự rất giỏi và có tâm với môn học của mình. Nhờ thầy, chúng em hiểu rằng GDQP không chỉ là một môn học bắt buộc, mà còn là những bài học về kỉ luật, tinh thần trách nhiệm và sự nghiêm túc trong từng hành động."
+    ],
+    "storyC": [], "storyD": [], "storyE": [],
+    "gallery": []
   },
 
   "___09_TO_KINH_TE_PHAP_LUAT___": "=========================================================",
 
-  "thay-phuong": {
-    "name": "Cô Phương", "fullName": "Lý Hoàng Phương", "subject": "Kinh Tế - PL", "grade": [10, 12],
-    "avatar": "assets/logo.png", "role": "Giáo viên Kinh Tế Pháp Luật", "quote": "", "cover": "", "cutout": "", "audio": "",
-    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, "bigQuote": "", "bullets": [], "storyA": [], "gallery": []
-  },
+
+"thay-phuong": {
+  "name": "Thầy Phương", "fullName": "Lý Hoàng Phương", "subject": "Kinh Tế - Pháp Luật", "grade": [10, 12],
+  "avatar": "assets/logo.png", "role": "Giáo viên Kinh tế - Pháp luật", "quote": "“Môn này ứng dụng nhiều nên tập trung nghe nha tụi em.”", "cover": "assets/teachers/10_12_thay_phuong/anh_hero.png", "cutout": "", "audio": "", "audioFileName": "", "audioTrackName": "",
+  "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, "bigQuote": "“Chúng em sẽ mãi trân trọng những năm tháng được học cùng thầy.”", 
+  "bullets": ["Người thầy mẫu mực", "Truyền đạt kiến thức rất thực tế"], 
+  "storyA": ["Thầy Phương - giáo viên môn Kinh tế và Pháp luật đã đồng hành cùng lớp ở năm 10 và 12, thầy luôn mang đến những bài học thiết thực và ý nghĩa về trách nhiệm và cách sống đúng đắn. Những điều thầy chia sẻ không chỉ dừng lại trong sách vở mà còn theo chúng em ra ngoài cuộc sống. Chúng em thật sự biết ơn vì sự tận tâm và những điều thầy đã dành cho lớp. Mong thầy luôn giữ gìn sức khỏe, nghỉ ngơi thật nhiều và luôn bình an."], 
+  "storyB": [], "storyC": [], "storyD": [], "storyE": [],
+  "gallery": [
+    { "src": "assets/teachers/10_12_thay_phuong/wipe_1.jpg", "cap": "Thầy Phương", "desc": "" }
+  ]
+},
   "co-chau": {
-    "name": "Cô Châu", "fullName": "Ngô Bảo Châu", "subject": "Kinh Tế - PL", "grade": [11],
-    "avatar": "assets/logo.png", "role": "Giáo viên Kinh Tế Pháp Luật", "quote": "", "cover": "", "cutout": "", "audio": "",
-    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, "bigQuote": "", "bullets": [], "storyA": [], "gallery": []
+    "name": "Cô Châu", "fullName": "Ngô Bảo Châu", "subject": "Kinh Tế - Pháp Luật", "grade": [11],
+    "avatar": "assets/logo.png", "role": "Giáo viên Kinh Tế Pháp Luật", "quote": "“Giáo viên là những người kiến ​​tạo tương lai của chúng ta.”", "cover": "assets/teachers/11_co_chau/anh_hero.png", "cutout": "", "audio": "",
+    "fig1": {}, "fig2": {}, "fig3": {}, "fig4": {}, "fig5": {}, "bigQuote": "“Mong cô luôn giữ gìn sức khỏe, nghỉ ngơi thật nhiều và luôn bình an.”", "bullets": [], "storyA": ["Cô Châu là giáo viên môn KTPL lớp 11 của chúng em. Cô là người luôn dạy học với sự chỉn chu và tinh thần trách nhiệm cao. Trong mỗi tiết học, cô chuẩn bị bài rất kỹ và giải thích từng nội dung một cách rõ ràng, mạch lạc. Những kiến thức tưởng như khô khan về kinh tế hay pháp luật qua cách cô giảng lại trở nên gần gũi hơn khi được gắn với những tình huống thực tế trong cuộc sống. Nhờ vậy, tụi em không chỉ hiểu bài mà còn thấy môn học có ý nghĩa và cần thiết hơn đối với bản thân."], "storyB": ["Không chỉ dừng lại ở việc truyền đạt kiến thức, cô còn giúp chúng em học cách suy nghĩ chín chắn và nhìn nhận vấn đề một cách khách quan hơn. Những câu hỏi cô đặt ra trong lớp thường khiến tụi em phải suy nghĩ kỹ trước khi trả lời, từ đó rèn được sự cẩn trọng và trách nhiệm với lời nói của mình. Tụi em thật sự trân trọng và biết ơn những gì cô đã dành cho lớp trong suốt năm học này."], "gallery": [
+    { "src": "assets/teachers/11_co_chau/wipe_1.jpg", "cap": "Cô Châu", "desc": "" },
+    { "src": "assets/teachers/11_co_chau/wipe_2.jpg", "cap": "Cô Châu x2", "desc": "" }
+    ]
   }
 }

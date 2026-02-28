@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Bảo Tàng Ký Ức 12A2</title>
+  <title>Ga Tàu Ký Ức A2K28</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="icon" href="assets/logo.png" type="image/png">
+  <link rel="icon" href="assets/logo2.png" type="image/png">
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Nunito:wght@400;600;700;800&family=Patrick+Hand&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 
@@ -61,8 +61,24 @@
       <img src="assets/logo.png" alt="12A2 Logo">
     </div>
     <div class="nav-actions">
+      <button class="nav-btn hover-target" title="Trang chủ" data-link="index.html">
+        <i class="fa-solid fa-home"></i> Trang chủ
+      </button>
+      <button class="nav-btn hover-target" title="Thành viên lớp" data-link="https://boulevardphat.github.io/members/">
+        <i class="fa-solid fa-users"></i> Thành Viên Lớp
+      </button>
+      <button class="nav-btn hover-target" title="Lớp 10" data-link="link_den_trang_lop_10.html">
+        <i class="fa-solid fa-school"></i> Lớp 10
+      </button>
+      <button class="nav-btn hover-target" title="Lớp 11" data-link="link_den_trang_lop_11.html">
+        <i class="fa-solid fa-school"></i> Lớp 11
+      </button>
+      <button class="nav-btn hover-target" title="Lớp 12" data-link="link_den_trang_lop_12.html">
+        <i class="fa-solid fa-school"></i> Lớp 12
+      </button>
       <button class="nav-btn hover-target" id="mapBtn" title="Bản đồ ga">
         <i class="fa-solid fa-ticket"></i> Bản Đồ
+      </button>
       </button>
     </div>
   </nav>
@@ -92,7 +108,7 @@
           <div class="hero-kicker">Niên khóa 2023 – 2026</div>
           <h1 class="hero-title">
              <span class="d-block">12A2</span>
-             <span class="d-script">Vườn Ký Ức</span>
+             <span class="d-script">Ga Tàu Ký Ức</span>
           </h1>
           <p class="hero-desc">Chạm vào từng thước phim, đi qua từng năm tháng.</p>
           <button class="hero-cta hover-target" id="goLaneBtn">
@@ -238,5 +254,10 @@
   </main>
 
   <script src="script.js"></script>
+  <audio id="snd-click" src="assets/click.mp3" preload="auto"></audio>
+  <audio id="snd-close" src="assets/photo.mp3" preload="auto"></audio>
+  <audio id="snd-photo" src="assets/click.mp3" preload="auto"></audio>
+  <audio id="snd-train" src="assets/train.mp3" preload="auto"></audio>
+  <audio id="bg-music" src="assets/ost.mp3" loop preload="auto"></audio>
 </body>
 </html>

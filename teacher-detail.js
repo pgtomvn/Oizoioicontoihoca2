@@ -439,7 +439,7 @@ document.addEventListener("DOMContentLoaded", () => {
     
     // Nếu vẫn không có ảnh nào (giáo viên chưa có data), dùng logo làm mặc định
     if (sourceImages.length === 0) {
-        sourceImages = ["assets/logo.png"];
+        sourceImages = ["assets/fallback.jpg"];
     }
 
     // Xóa rỗng container trước khi chèn để tránh bị lặp ảnh
@@ -454,7 +454,7 @@ document.addEventListener("DOMContentLoaded", () => {
       
       // Thêm fallback nếu đường dẫn ảnh bị lỗi
       img.onerror = function() {
-          this.src = 'assets/logo.png';
+          this.src = 'assets/fallback.jpg';
       };
 
       gsap.set(img, { scale: 1.2 }); // Set trạng thái ban đầu cho GSAP
@@ -702,4 +702,33 @@ document.addEventListener("DOMContentLoaded", () => {
       ScrollTrigger.refresh();
     });
   }
+  
+  // ==========================================
+    // HỆ THỐNG ÂM THANH (SOUND EFFECTS)
+    // ==========================================
+    const playSound = (id) => {
+        const audio = document.getElementById(id);
+        if (audio) {
+            audio.currentTime = 0;
+            audio.play().catch(e => console.log("Trình duyệt chặn autoplay âm thanh:", e));
+        }
+    };
+
+    // 1. Nút click chung
+    $$('.cta, #openThanksBtn, #thanksSend, .nav-btn, #jumpStoryBtn').forEach(btn => {
+        btn.addEventListener('click', () => playSound('snd-click'));
+    });
+
+    // 2. Nút đóng chung
+    $$('#thanksClose, #photoClose').forEach(btn => {
+        btn.addEventListener('click', () => playSound('snd-close'));
+    });
+
+    // 3. Âm thanh tách máy ảnh khi click vào ảnh Polaroid trong Gallery
+    document.addEventListener('click', (e) => {
+        const img = e.target.closest(".polaroid img");
+        if (img) {
+            playSound('snd-photo');
+        }
+    });
 });
