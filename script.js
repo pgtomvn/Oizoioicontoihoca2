@@ -141,18 +141,47 @@ document.addEventListener("DOMContentLoaded", () => {
             gsap.from("#hero .hero-photo", { scale: 1.2, duration: 2.5, ease: "power2.out" });
             gsap.from(".hero-content-center", { y: 50, opacity: 0, duration: 1.5, delay: 0.5 });
 
+            // ==========================================
+            // LOGIC PHÁT NHẠC NỀN RANDOM (PLAYLIST THÔNG MINH)
+            // ==========================================
             const bgMusic = document.getElementById("bg-music");
             if (bgMusic) {
-                bgMusic.volume = 0.2; // Volume nhỏ
-                
-                bgMusic.play().catch(e => {
-                    console.log("Trình duyệt chặn autoplay. Chờ tương tác từ người dùng...");
+                const playlist = [
+                    "assets/ost.mp3",
+                    "assets/ost2.mp3",
+                    "assets/ost3.mp3"
+                ];
+
+                let currentSong = ""; // Lưu lại bài đang hát
+
+                // Hàm chọn bài và phát
+                const playNextRandomSong = () => {
+                    let randomSong;
+                    // Bốc thăm cho đến khi bài mới KHÔNG TRÙNG với bài vừa hát
+                    do {
+                        randomSong = playlist[Math.floor(Math.random() * playlist.length)];
+                    } while (randomSong === currentSong);
                     
-                    document.body.addEventListener('click', function playOnInteraction() {
+                    currentSong = randomSong; // Cập nhật bài đang hát
+                    bgMusic.src = currentSong; // Gắn link nhạc
+                    bgMusic.play().catch(e => console.log("Đang chờ người dùng tương tác..."));
+                };
+
+                bgMusic.volume = 0.3; // Volume nhỏ
+                
+                // 1. Gọi hàm để phát bài đầu tiên khi web vừa load xong Intro
+                playNextRandomSong();
+
+                // 2. LẮNG NGHE SỰ KIỆN HẾT BÀI: Cứ hễ hát xong là tự gọi lại hàm bốc thăm bài mới
+                bgMusic.addEventListener('ended', playNextRandomSong);
+
+                // 3. Dự phòng trường hợp trình duyệt chặn Autoplay lúc đầu
+                document.body.addEventListener('click', function playOnInteraction() {
+                    if (bgMusic.paused) {
                         bgMusic.play();
-                        document.body.removeEventListener('click', playOnInteraction); 
-                    }, { once: true });
-                });
+                    }
+                    document.body.removeEventListener('click', playOnInteraction); 
+                }, { once: true });
             }
         }
         $("#skipCinematicBtn").addEventListener("click", () => tl.progress(1));
